@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='B-2008.09 32-BIT'
+.TITLE 'twostageamplifier_step2.1'
+ gb               temper           alter#            
+  1.577e+07         25.0000           1.0000         

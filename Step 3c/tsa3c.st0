@@ -1,0 +1,146 @@
+***** HSPICE -- B-2008.09 32-BIT (Aug 26 2008) winnt ******
+ Input File: c:\synopsys\laboratory codes ece130\laboratory 3\tsa3c.sp
+ lic:
+ lic: FLEXlm: v8.5b
+ lic: USER:   Jeph Mari            HOSTNAME: JephMari-PC
+ lic: HOSTID: "00e0b60ceca3 4ea650e2bbc4 00ffac01a30b 00ffc772739d 000000000000
+ lic: Using FLEXlm license file:
+ lic: 27000@bill-PC
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2020/2007.9
+ lic: NODE LOCKED license on hostid "00e0b60ceca3 4ea650e2bbc4 00ffac01a30b 00ff
+ lic:
+ Init: hspice initialization file: C:\synopsys\Hspice_B-2008.09\hspice.ini
+ init: begin read circuit files,  cpu clock=  3.12E-01
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\FET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+       option post
+       option probe
+ init: end read circuit files,  cpu clock=  4.69E-01 memory=    145 kb
+ init: begin check errors,  cpu clock=  4.69E-01
+ init: end check errors,  cpu clock=  4.88E-01 memory=    172 kb
+ init: begin setup matrix, pivot=    10 cpu clock=  4.88E-01
+       establish matrix -- done,  cpu clock=  5.08E-01 memory=    179 kb
+       re-order matrix -- done,  cpu clock=  5.18E-01 memory=    181 kb
+ init: end setup matrix,  cpu clock=  5.27E-01 memory=    198 kb
+ dcop: begin dcop,  cpu clock=  5.47E-01
+ dcop: end dcop,  cpu clock=  5.76E-01 memory=    198 kb  tot_iter=     235
+ output: c:\synopsys\laboratory codes ece130\laboratory 3\tsa3c.tr0
+ sweep: tran tran0    begin, stop_t=  6.00E-07 #sweeps=6001 cpu clock=  6.05E-01
+ tran: time= 6.9059E-08 tot_iter=      16 conv_iter=       8 cpu clock= 6.15E-01
+ tran: time= 1.2373E-07 tot_iter=      75 conv_iter=      28 cpu clock= 6.25E-01
+ tran: time= 1.8004E-07 tot_iter=      92 conv_iter=      34 cpu clock= 6.35E-01
+ tran: time= 2.5580E-07 tot_iter=     107 conv_iter=      39 cpu clock= 6.54E-01
+ tran: time= 3.1928E-07 tot_iter=     116 conv_iter=      42 cpu clock= 6.54E-01
+ tran: time= 3.7230E-07 tot_iter=     121 conv_iter=      44 cpu clock= 6.64E-01
+ tran: time= 4.2981E-07 tot_iter=     125 conv_iter=      46 cpu clock= 6.74E-01
+ tran: time= 4.8396E-07 tot_iter=     131 conv_iter=      49 cpu clock= 6.84E-01
+ tran: time= 5.4396E-07 tot_iter=     135 conv_iter=      51 cpu clock= 6.93E-01
+ tran: time= 6.0000E-07 tot_iter=     139 conv_iter=      53 cpu clock= 7.03E-01
+ sweep: tran tran0    end,  cpu clock=  7.13E-01 memory=    198 kb
+>info:         ***** hspice job concluded
+>alter:
+ init: begin read circuit files,  cpu clock=  8.59E-01
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\FET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+       option post
+       option probe
+ init: end read circuit files,  cpu clock=  1.05E+00 memory=    145 kb
+ init: begin check errors,  cpu clock=  1.05E+00
+ init: end check errors,  cpu clock=  1.09E+00 memory=    172 kb
+ init: begin setup matrix, pivot=    10 cpu clock=  1.09E+00
+       establish matrix -- done,  cpu clock=  1.11E+00 memory=    179 kb
+       re-order matrix -- done,  cpu clock=  1.12E+00 memory=    181 kb
+ init: end setup matrix,  cpu clock=  1.13E+00 memory=    198 kb
+ dcop: begin dcop,  cpu clock=  1.14E+00
+ dcop: end dcop,  cpu clock=  1.16E+00 memory=    198 kb  tot_iter=     235
+ output: c:\synopsys\laboratory codes ece130\laboratory 3\tsa3c.tr1
+ sweep: tran tran0    begin, stop_t=  6.00E-07 #sweeps=6001 cpu clock=  1.18E+00
+ tran: time= 6.9059E-08 tot_iter=      16 conv_iter=       8 cpu clock= 1.19E+00
+ tran: time= 1.2368E-07 tot_iter=      75 conv_iter=      28 cpu clock= 1.20E+00
+ tran: time= 1.8023E-07 tot_iter=      87 conv_iter=      33 cpu clock= 1.21E+00
+ tran: time= 2.4320E-07 tot_iter=      99 conv_iter=      37 cpu clock= 1.22E+00
+ tran: time= 3.1959E-07 tot_iter=     107 conv_iter=      40 cpu clock= 1.24E+00
+ tran: time= 3.7821E-07 tot_iter=     112 conv_iter=      42 cpu clock= 1.25E+00
+ tran: time= 4.3821E-07 tot_iter=     116 conv_iter=      44 cpu clock= 1.26E+00
+ tran: time= 4.9821E-07 tot_iter=     120 conv_iter=      46 cpu clock= 1.27E+00
+ tran: time= 5.4756E-07 tot_iter=     124 conv_iter=      48 cpu clock= 1.28E+00
+ tran: time= 6.0000E-07 tot_iter=     128 conv_iter=      50 cpu clock= 1.28E+00
+ sweep: tran tran0    end,  cpu clock=  1.30E+00 memory=    198 kb
+>info:         ***** hspice job concluded
+>alter:
+ init: begin read circuit files,  cpu clock=  1.41E+00
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\FET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+       option post
+       option probe
+ init: end read circuit files,  cpu clock=  1.66E+00 memory=    145 kb
+ init: begin check errors,  cpu clock=  1.66E+00
+ init: end check errors,  cpu clock=  1.69E+00 memory=    172 kb
+ init: begin setup matrix, pivot=    10 cpu clock=  1.69E+00
+       establish matrix -- done,  cpu clock=  1.71E+00 memory=    179 kb
+       re-order matrix -- done,  cpu clock=  1.72E+00 memory=    181 kb
+ init: end setup matrix,  cpu clock=  1.73E+00 memory=    198 kb
+ dcop: begin dcop,  cpu clock=  1.75E+00
+ dcop: end dcop,  cpu clock=  1.77E+00 memory=    198 kb  tot_iter=     235
+ output: c:\synopsys\laboratory codes ece130\laboratory 3\tsa3c.tr2
+ sweep: tran tran0    begin, stop_t=  6.00E-07 #sweeps=6001 cpu clock=  1.79E+00
+ tran: time= 6.9059E-08 tot_iter=      16 conv_iter=       8 cpu clock= 1.80E+00
+ tran: time= 1.2367E-07 tot_iter=      75 conv_iter=      28 cpu clock= 1.81E+00
+ tran: time= 1.8120E-07 tot_iter=      87 conv_iter=      33 cpu clock= 1.82E+00
+ tran: time= 2.4406E-07 tot_iter=      96 conv_iter=      36 cpu clock= 1.83E+00
+ tran: time= 3.2817E-07 tot_iter=     105 conv_iter=      39 cpu clock= 1.84E+00
+ tran: time= 3.8817E-07 tot_iter=     109 conv_iter=      41 cpu clock= 1.85E+00
+ tran: time= 4.4817E-07 tot_iter=     113 conv_iter=      43 cpu clock= 1.86E+00
+ tran: time= 5.0817E-07 tot_iter=     117 conv_iter=      45 cpu clock= 1.86E+00
+ tran: time= 5.6817E-07 tot_iter=     121 conv_iter=      47 cpu clock= 1.89E+00
+ tran: time= 6.0000E-07 tot_iter=     123 conv_iter=      48 cpu clock= 1.90E+00
+ sweep: tran tran0    end,  cpu clock=  1.90E+00 memory=    198 kb
+>info:         ***** hspice job concluded
+ Init: hspice initialization file: C:\synopsys\Hspice_B-2008.09\hspice.ini
+ lic: Release hspice token(s)

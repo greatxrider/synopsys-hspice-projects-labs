@@ -1,0 +1,20 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "12:46:37 01/23/2019 "
+* "netlist" "c:\synopsys\laboratory codes ece130\laboratory 3\tsa3c.sp "
+* "runtitle" "twostageamplifier_step3.3"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vdd =   1.8400        
++ vg1 =   1.2160        
++ vg2 = 554.2596m       
++ vinn = 700.0000m       
++ vout = 699.9239m       
++ vs1 = 133.5329m       
++ vx =   1.2001        
+***   END: Saved Operating Point ***                     

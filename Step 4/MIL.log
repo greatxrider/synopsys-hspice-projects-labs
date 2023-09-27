@@ -1,0 +1,63 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\synopsys\\laboratory codes ece130\\step 4\\tsa4.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","p(vout)","S-1"), node(D0,"A0","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A0","vdb(vout)"), node(D0,"A0","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A1","p(vout)","S-1"), node(D0,"A1","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A1","vdb(vout)"), node(D0,"A1","HERTZ"));
+nil
+pnlDelCurve(1, node(D0,"A0","p(vout)","S-1"), node(D0,"A0","HERTZ"));
+nil
+pnlDelCurve(1, node(D0,"A0","vdb(vout)"), node(D0,"A0","HERTZ"));
+nil
+pnlDelCurve(1, node(D0,"A1","p(vout)","S-1"), node(D0,"A1","HERTZ"));
+nil
+pnlDelCurve(1, node(D0,"A1","vdb(vout)"), node(D0,"A1","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A1","vdb(vout)"), node(D0,"A1","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A1","p(vout)","S-1"), node(D0,"A1","HERTZ"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+pnlAddCurve(1, node(D0,"A0","vdb(vout)"), node(D0,"A0","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A0","p(vout)","S-1"), node(D0,"A0","HERTZ"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+pnlDelCurve(1, node(D0,"A1","vdb(vout)"), node(D0,"A1","HERTZ"));
+nil
+pnlDelCurve(1, node(D0,"A1","p(vout)","S-1"), node(D0,"A1","HERTZ"));
+nil
+pnlDelCurve(1, node(D0,"A0","vdb(vout)"), node(D0,"A0","HERTZ"));
+nil
+pnlDelCurve(1, node(D0,"A0","p(vout)","S-1"), node(D0,"A0","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A2","vdb(vout)"), node(D0,"A2","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A2","p(vout)","S-1"), node(D0,"A2","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A0","vdb(vout)"), node(D0,"A0","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A0","p(vout)","S-1"), node(D0,"A0","HERTZ"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

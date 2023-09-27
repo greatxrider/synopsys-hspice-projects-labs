@@ -1,0 +1,19 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\synopsys\\laboratory codes ece130\\step 3\\tsa3.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","p(vout)","S-1"), node(D0,"A0","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A0","vdb(vout)"), node(D0,"A0","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A1","vdb(vout)"), node(D0,"A1","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A1","p(vout)","S-1"), node(D0,"A1","HERTZ"));
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

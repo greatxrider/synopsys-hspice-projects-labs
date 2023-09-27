@@ -1,0 +1,15 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\synopsys\\laboratory codes ece130\\step 2b\\tsa2b.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","v(vout)"), node(D0,"A0","TIME"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(vinn)"), node(D0,"A0","TIME"));
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil
