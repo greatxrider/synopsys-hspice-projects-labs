@@ -1,0 +1,21 @@
+pnlAddPane();
+nil
+1
+designOpen("d:\\non - windows files\\my academic books\\f. 3rd year 2nd sem\\ece132\\ece132.1\\constant gm current reference guides\\hspice output for constant gm\\constant gm current ref\\constant gn current referebce (18ua)\\constant gm current (18ua).sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A1","v(vb1)"), node(D0,"A1","VOLTS"));
+nil
+pnlAddCurve(1, node(D0,"A1","v(vb2)"), node(D0,"A1","VOLTS"));
+nil
+pnlAddCurve(1, node(D0,"A0","i(r)"), node(D0,"A0","VOLTS"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

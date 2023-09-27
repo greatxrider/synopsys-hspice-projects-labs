@@ -1,0 +1,38 @@
+Parsing                                                                        
+                                                                               
+Loading Netlist Data                                                           
+
+Warning:  .DC multiply defined; last one will be used.                         
+Initialize Models                                                              
+Checking                                                                       
+                                                                               
+Compressing                                                                    
+Simulation                                                                     
+OP: solves 20.0K solves/node 392.16, converged 1.96%                           
+OP: solves 20.3K solves/node 397.06, converged 1.96%                           
+OP: solves 20.5K solves/node 401.96, converged 1.96%                           
+OP: solves 20.8K solves/node 407.84, converged 1.96%                           
+OP: solves 21.1K solves/node 412.75, converged 1.96%                           
+OP: solves 21.3K solves/node 416.67, converged 1.96%                           
+OP: solves 21.5K solves/node 421.57, converged 1.96%                           
+OP: solves 21.7K solves/node 425.49, converged 1.96%                           
+OP: solves 21.9K solves/node 428.43, converged 1.96%                           
+OP: finished                                                                   
+DC Sweep Analysis                                                              
+starting DC sweep                                                              
+0.1% VDD = 1.620000 ( etc = 0.0 sec, ett = 0.0 sec )                           
+10.0% VDD = 1.658000 ( etc = 0.0 sec, ett = 0.0 sec )                          
+20.0% VDD = 1.696000 ( etc = 0.0 sec, ett = 0.0 sec )                          
+30.0% VDD = 1.734000 ( etc = 0.0 sec, ett = 0.0 sec )                          
+40.0% VDD = 1.772000 ( etc = 0.0 sec, ett = 0.0 sec )                          
+50.0% VDD = 1.810000 ( etc = 0.0 sec, ett = 0.0 sec )                          
+60.0% VDD = 1.848000 ( etc = 0.0 sec, ett = 0.0 sec )                          
+70.0% VDD = 1.886000 ( etc = 0.0 sec, ett = 0.0 sec )                          
+80.0% VDD = 1.924000 ( etc = 0.0 sec, ett = 0.0 sec )                          
+90.0% VDD = 1.962000 ( etc = 0.0 sec, ett = 0.0 sec )                          
+100.0% VDD = 2.000000 ( etc = 0.0 sec, ett = 0.0 sec )                         
+Compressing                                                                    
+finished DC sweep (0.1 sec)                                                    
+                                                                               
+                                                                               
+See "Constant gm current (18uA).sp.lis" for results and statistics.            

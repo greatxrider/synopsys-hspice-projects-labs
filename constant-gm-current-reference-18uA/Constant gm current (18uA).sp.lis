@@ -1,0 +1,374 @@
+************************************************************************
+HSPICE RF -- B-2008.09 (Aug 26 2008)
+Copyright (C) 2008 Synopsys,Inc. All rights reserved.
+This software and the associated documentation are confidential and
+proprietary to Synopsys, Inc. Your use or disclosure of this software
+is subject to the terms and conditions of a written license agreement
+between you, or your company, and Synopsys, Inc.
+************************************************************************
+
+hspicerf 32-bit version B-2008.09 (Aug 26 2008 13:13:41)
+
+machine info: Professional Server 4.0 (Build 9200) 586 on DESKTOP-FRMR35U
+
+current time: 21:03:37 07/06/2018
+
+command line: hspicerf D:\Non - Windows Files\My ACADEMIC BOOKS\F. 3RD YEAR
+2ND SEM\ECE132\ECE132.1\Constant gm Current Reference Guides\Hspice Output
+for Constant Gm\Constant gm Current Ref\Constant gn Current referebce
+(18uA)\Constant gm current (18uA).sp -o D:\Non - Windows Files\My ACADEMIC
+BOOKS\F. 3RD YEAR 2ND SEM\ECE132\ECE132.1\Constant gm Current Reference
+Guides\Hspice Output for Constant Gm\Constant gm Current Ref\Constant gn
+Current referebce (18uA)\Constant gm current (18uA).sp
+
+License user information
+------------------------------
+| FLEXLM   | v8.5b           |
+| USER     | jephm           |
+| HOSTNAME | DESKTOP-FRMR35U |
+| HOSTID   | 2cfda1be3b25    |
+| PID      | 4364            |
+|----------------------------|
+
+License file: D:\Non
+-----------------------------------------------------------------------------
+| license | checkout number | expiration date   | # in use / total | server |
+|---------+-----------------+-------------------+------------------+--------|
+| -       | Windows         | Files\My/ACADEMIC | BOOKS\E./3RD     | YEAR   |
+|---------------------------------------------------------------------------|
+
+License file: 1ST
+----------------------------------------------------------------------------------------------------------------------------
+| license           | checkout number | expiration date                                        | # in use / total | server |
+|-------------------+-----------------+--------------------------------------------------------+------------------+--------|
+| SEM\ECE130\Hspice | 2008.09\Hspice  | 2008.09\hspice_vB-2008.09_Win_setup\license.dat/hspice | 1/31-dec-2020    | 2007.9 |
+|--------------------------------------------------------------------------------------------------------------------------|
+
+License file: uncounted
+--------------------------------------------------------------------------------
+| license    | checkout number | expiration date | # in use / total | server   |
+|------------+-----------------+-----------------+------------------+----------|
+| uncouonted | DESKTOP-FRMR35U | D:\Non/-        | Windows/Files\My | ACADEMIC |
+|------------------------------------------------------------------------------|
+
+Total number of lines parsed: 2215
+
+Resource Usage for Parsing
+--------------------------
+| CPU Time    | 0.12 sec |
+| Peak Memory | 0.04 Mb  |
+|------------------------|
+
+Warning:  .DC multiply defined; last one will be used.
+
+Source Files
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| "D:\Non - Windows Files\My ACADEMIC BOOKS\F. 3RD YEAR 2ND SEM\ECE132\ECE132.1\Constant gm Current Reference Guides\Hspice Output for Constant Gm\Constant gm Current Ref\Constant gn Current referebce (18uA)\Constant gm current (18uA).sp" |
+| "D:\Non - Windows Files\My ACADEMIC BOOKS\F. 3RD YEAR 2ND SEM\ECE132\ECE132.1\Constant gm Current Reference Guides\Hspice Output for Constant Gm\Constant gm Current Ref\Constant gn Current referebce (18uA)\mm018.l"                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+Options
+------------------
+| Option | Value |
+|--------+-------|
+| POST   | 1     |
+| PROBE  | on    |
+|----------------|
+
+14 unique instance models are loaded.
+
+Resource Usage for Load Netlist Data
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 0.00 Mb  |
+|------------------------|
+
+Netlist Statistics
+--------------------
+| Type     | Count |
+|----------+-------|
+| nmos     | 10    |
+| pmos     | 8     |
+| resistor | 1     |
+| vsrc     | 1     |
+|------------------|
+
+Summary of Possible Problems in Netlist
+-------------------------------------
+| Negative resistor             | 0 |
+| Negative capacitor            | 0 |
+| Negative inductor             | 0 |
+| Unconnected node              | 0 |
+| Dangling terminal             | 0 |
+| Non-rail bulk terminal        | 0 |
+| Floating MOS gate             | 0 |
+| Floating MOS bulk             | 0 |
+| Floating BJT substrate        | 0 |
+| Floating controlled input     | 0 |
+| Floating current source nodes | 0 |
+| Source loop                   | 0 |
+|-----------------------------------|
+
+Resource Usage for Netlist Check
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 0.00 Mb  |
+|------------------------|
+
+Number of nodes: 15
+
+Total number of nodes (including internal nodes): 51
+
+Resource Usage for Netlist Data Compression
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 0.00 Mb  |
+|------------------------|
+
+Simulation
+
+Operating Point Status time=0
+--------------------
+| Node | Voltage   |
+|------+-----------|
+| VDD  | 1.8       |
+| C    | 1.40531   |
+| D    | 0.169633  |
+| E    | 1.40357   |
+| F    | 0.552549  |
+| H    | 0.196266  |
+| I    | 1.40392   |
+| L    | 0.198582  |
+| M    | 0.0214627 |
+| VB1  | 0.518064  |
+| VB2  | 0.812402  |
+| VB3  | 0.49285   |
+| VB4  | 1.01088   |
+|------------------|
+
+
+--------------------------
+| Element | VDD          |
+|---------+--------------|
+| volts   | 1.8000e+000  |
+| current | -1.0455e-004 |
+| power   | 1.8819e-004  |
+|------------------------|
+
+
+--------------------------------------------------------------------------
+| Element    | M17          | M34          | M36          | M16          |
+|------------+--------------+--------------+--------------+--------------|
+| Model Name | PCH.4        | PCH.4        | NCH.4        | NCH.4        |
+| region     | Cutoff       | Cutoff       | Saturation   | Linear       |
+| id         | -1.3111e-005 | -1.8008e-005 | 1.8008e-005  | 1.3111e-005  |
+| ibs        | 1.5004e-018  | 9.8014e-014  | -1.9008e-015 | -2.7497e-020 |
+| ibd        | 6.1259e-015  | 9.8014e-014  | -1.9017e-015 | -1.0769e-015 |
+| vgs        | -1.8000e+000 | -9.1072e-001 | 6.1614e-001  | 8.1240e-001  |
+| vds        | -1.7785e+000 | -8.5102e-001 | 3.2180e-001  | 2.1463e-002  |
+| vbs        | 0.0000e+000  | 3.9643e-001  | -1.9627e-001 | 0.0000e+000  |
+| vth        | -4.3496e-001 | -5.5157e-001 | 4.9093e-001  | 4.3722e-001  |
+| vdsat      | -1.0968e+000 | -3.2675e-001 | 1.6623e-001  | 3.8459e-001  |
+| beta       | 1.7447e-005  | 1.9121e-005  | 1.0366e-004  | 1.0774e-004  |
+| gam eff    | 4.7759e-001  | 4.6452e-001  | 5.0146e-001  | 5.0388e-001  |
+| gm         | 1.6011e-005  | 8.9758e-005  | 2.1020e-004  | 3.4242e-005  |
+| gds        | 3.9681e-008  | 1.1897e-007  | 8.6170e-007  | 5.9287e-004  |
+| gmb        | 6.1403e-006  | 2.6275e-005  | 5.5709e-005  | 1.0797e-005  |
+| cdtot      | 3.2713e-015  | 5.5717e-014  | 5.6768e-014  | 3.2865e-012  |
+| cgtot      | 1.7204e-013  | 2.9237e-012  | 2.7664e-012  | 3.8301e-012  |
+| cstot      | 2.0566e-013  | 3.3757e-012  | 3.1580e-012  | 3.5519e-012  |
+| cbtot      | 6.7723e-014  | 1.0313e-012  | 1.0616e-012  | 1.1690e-012  |
+| cgs        | 1.5405e-013  | 2.6038e-012  | 2.3939e-012  | 1.9453e-012  |
+| cgd        | 9.7416e-016  | 1.5587e-014  | 1.7475e-014  | 1.8587e-012  |
+|------------------------------------------------------------------------|
+
+
+--------------------------------------------------------------------------
+| Element    | M14          | M15          | M33          | M35          |
+|------------+--------------+--------------+--------------+--------------|
+| Model Name | NCH.4        | NCH.4        | PCH.4        | NCH.4        |
+| region     | Cutoff       | Cutoff       | Cutoff       | Saturation   |
+| id         | 3.5780e-011  | 3.6193e-011  | -1.8005e-005 | 1.8005e-005  |
+| ibs        | -7.6072e-026 | -7.8025e-026 | 9.8014e-014  | -1.3056e-015 |
+| ibd        | -1.9017e-015 | -1.9017e-015 | 9.8014e-014  | -1.3074e-015 |
+| vgs        | 2.1463e-002  | 2.1463e-002  | -9.1246e-001 | 6.4277e-001  |
+| vds        | 4.9285e-001  | 1.0109e+000  | -3.9443e-001 | 8.4125e-001  |
+| vbs        | 0.0000e+000  | 0.0000e+000  | 3.9469e-001  | -1.6963e-001 |
+| vth        | 4.3712e-001  | 4.3700e-001  | -5.5121e-001 | 4.8375e-001  |
+| vdsat      | 4.6669e-002  | 4.6669e-002  | -3.2840e-001 | 1.9449e-001  |
+| beta       | 1.1296e-004  | 1.1296e-004  | 1.9116e-005  | 1.0334e-004  |
+| gam eff    | 5.0388e-001  | 5.0388e-001  | 4.6458e-001  | 5.0175e-001  |
+| gm         | 1.1407e-009  | 1.1539e-009  | 8.7561e-005  | 1.8145e-004  |
+| gds        | 8.4856e-013  | 7.8341e-013  | 2.4760e-006  | 1.5893e-007  |
+| gmb        | 3.6285e-010  | 3.6701e-010  | 2.5723e-005  | 4.8661e-005  |
+| cdtot      | 5.7051e-014  | 5.2472e-014  | 5.9744e-014  | 3.6074e-014  |
+| cgtot      | 1.0337e-012  | 1.0337e-012  | 2.9238e-012  | 1.9568e-012  |
+| cstot      | 6.5079e-014  | 6.5079e-014  | 3.3762e-012  | 2.2651e-012  |
+| cbtot      | 1.0860e-012  | 1.0814e-012  | 1.0359e-012  | 7.3820e-013  |
+| cgs        | 1.7475e-014  | 1.7475e-014  | 2.6038e-012  | 1.7131e-012  |
+| cgd        | 1.7475e-014  | 1.7475e-014  | 1.5587e-014  | 1.2014e-014  |
+|------------------------------------------------------------------------|
+
+
+--------------------------------------------------------------------------
+| Element    | M9           | M46          | M8           | M2           |
+|------------+--------------+--------------+--------------+--------------|
+| Model Name | NCH.4        | PCH.4        | NCH.4        | PCH.4        |
+| region     | Saturation   | Cutoff       | Saturation   | Cutoff       |
+| id         | 2.4247e-005  | -2.4247e-005 | 2.4247e-005  | -3.1180e-005 |
+| ibs        | -5.0851e-020 | 2.7750e-018  | -2.4949e-015 | 3.5685e-018  |
+| ibd        | -4.2769e-015 | 2.4504e-014  | -2.4960e-015 | 1.5927e-013  |
+| vgs        | 5.1806e-001  | -1.3071e+000 | 6.1382e-001  | -7.8912e-001 |
+| vds        | 1.9858e-001  | -1.3071e+000 | 2.9427e-001  | -3.9608e-001 |
+| vbs        | 0.0000e+000  | 0.0000e+000  | -1.9858e-001 | 0.0000e+000  |
+| vth        | 4.3718e-001  | -4.3506e-001 | 4.9195e-001  | -4.3526e-001 |
+| vdsat      | 1.3081e-001  | -7.1480e-001 | 1.6358e-001  | -3.1370e-001 |
+| beta       | 1.1203e-004  | 1.9380e-005  | 1.1074e-004  | 2.1732e-005  |
+| gam eff    | 5.0388e-001  | 4.7758e-001  | 5.0162e-001  | 4.7758e-001  |
+| gm         | 3.4011e-004  | 4.8665e-005  | 2.8686e-004  | 1.5569e-004  |
+| gds        | 5.8843e-006  | 9.9905e-008  | 1.6416e-006  | 3.3543e-006  |
+| gmb        | 9.8851e-005  | 1.7384e-005  | 7.5943e-005  | 5.2079e-005  |
+| cdtot      | 1.3750e-013  | 1.3820e-014  | 7.4879e-014  | 1.0508e-013  |
+| cgtot      | 5.3622e-012  | 6.9000e-013  | 3.3926e-012  | 4.4825e-012  |
+| cstot      | 5.9459e-012  | 8.2481e-013  | 3.8672e-012  | 5.3569e-012  |
+| cbtot      | 2.4278e-012  | 2.7880e-013  | 1.3113e-012  | 1.8717e-012  |
+| cgs        | 4.3644e-012  | 6.1134e-013  | 2.9296e-012  | 3.9259e-012  |
+| cgd        | 3.9318e-014  | 3.8966e-015  | 2.2936e-014  | 2.5328e-014  |
+|------------------------------------------------------------------------|
+
+
+--------------------------------------------------------------------------
+| Element    | M37          | M32          | M38          | M31          |
+|------------+--------------+--------------+--------------+--------------|
+| Model Name | NCH.4        | PCH.4        | NCH.4        | PCH.4        |
+| region     | Saturation   | Cutoff       | Saturation   | Cutoff       |
+| id         | 1.8005e-005  | -1.8008e-005 | 1.8008e-005  | -1.8005e-005 |
+| ibs        | -3.7759e-020 | 2.0610e-018  | -3.6750e-020 | 2.0606e-018  |
+| ibd        | -3.0861e-015 | 9.8014e-014  | -2.4661e-015 | 9.8014e-014  |
+| vgs        | 5.1806e-001  | -7.8912e-001 | 5.5255e-001  | -7.8912e-001 |
+| vds        | 1.6963e-001  | -3.9643e-001 | 1.9627e-001  | -3.9469e-001 |
+| vbs        | 0.0000e+000  | 0.0000e+000  | 0.0000e+000  | 0.0000e+000  |
+| vth        | 4.3746e-001  | -4.3509e-001 | 4.3567e-001  | -4.3509e-001 |
+| vdsat      | 1.3065e-001  | -3.1385e-001 | 1.5829e-001  | -3.1385e-001 |
+| beta       | 1.1679e-004  | 2.0377e-005  | 1.1747e-004  | 2.0377e-005  |
+| gam eff    | 5.0399e-001  | 4.7736e-001  | 4.9699e-001  | 4.7736e-001  |
+| gm         | 2.4977e-004  | 8.9890e-005  | 2.1287e-004  | 8.9833e-005  |
+| gds        | 9.4252e-006  | 1.9214e-006  | 8.2389e-006  | 1.9788e-006  |
+| gmb        | 7.2616e-005  | 3.0067e-005  | 6.1742e-005  | 3.0050e-005  |
+| cdtot      | 1.0012e-013  | 6.4660e-014  | 8.0757e-014  | 6.4686e-014  |
+| cgtot      | 3.7165e-012  | 2.9407e-012  | 4.3764e-012  | 2.9407e-012  |
+| cstot      | 4.1209e-012  | 3.5118e-012  | 5.0472e-012  | 3.5118e-012  |
+| cbtot      | 1.6897e-012  | 1.2214e-012  | 1.8140e-012  | 1.2214e-012  |
+| cgs        | 3.0227e-012  | 2.5764e-012  | 3.7338e-012  | 2.5764e-012  |
+| cgd        | 2.8396e-014  | 1.5587e-014  | 2.3339e-014  | 1.5587e-014  |
+|------------------------------------------------------------------------|
+
+
+--------------------------------------------
+| Element    | M3           | M12          |
+|------------+--------------+--------------|
+| Model Name | PCH.4        | NCH.4        |
+| region     | Cutoff       | Saturation   |
+| id         | -3.1180e-005 | 3.1180e-005  |
+| ibs        | 1.5927e-013  | -6.5387e-020 |
+| ibd        | 1.5927e-013  | -4.7542e-016 |
+| vgs        | -9.1107e-001 | 8.1240e-001  |
+| vds        | -5.9152e-001 | 8.1240e-001  |
+| vbs        | 3.9608e-001  | 0.0000e+000  |
+| vth        | -5.5172e-001 | 4.3705e-001  |
+| vdsat      | -3.2690e-001 | 3.8474e-001  |
+| beta       | 2.0391e-005  | 1.0774e-004  |
+| gam eff    | 4.6477e-001  | 5.0388e-001  |
+| gm         | 1.5516e-004  | 1.4964e-004  |
+| gds        | 4.5947e-007  | 2.4697e-007  |
+| gmb        | 4.5437e-005  | 4.4122e-005  |
+| cdtot      | 9.3977e-014  | 1.3492e-014  |
+| cgtot      | 4.4566e-012  | 6.8849e-013  |
+| cstot      | 5.1488e-012  | 8.1985e-013  |
+| cbtot      | 1.5839e-012  | 2.7281e-013  |
+| cgs        | 3.9676e-012  | 6.0748e-013  |
+| cgd        | 2.5328e-014  | 4.3687e-015  |
+|------------------------------------------|
+
+
+-------------------------
+| Element | R           |
+|---------+-------------|
+| r value | 1.9150e+003 |
+| v drop  | 3.4486e-002 |
+| current | 1.8008e-005 |
+| power   | 6.2102e-007 |
+|-----------------------|
+
+Resource Usage for Operating Point
+--------------------------
+| CPU Time    | 0.02 sec |
+| Peak Memory | 0.00 Mb  |
+|------------------------|
+
+DC Sweep Analysis
+
+starting DC sweep
+
+Total number of nodes (including internal nodes): 51
+
+Resource Usage for Netlist Data Compression
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 0.00 Mb  |
+|------------------------|
+
+0.1% VDD = 1.620000 ( etc = 0.0 sec, ett = 0.0 sec )
+
+10.0% VDD = 1.658000 ( etc = 0.0 sec, ett = 0.0 sec )
+
+20.0% VDD = 1.696000 ( etc = 0.0 sec, ett = 0.0 sec )
+
+30.0% VDD = 1.734000 ( etc = 0.0 sec, ett = 0.0 sec )
+
+40.0% VDD = 1.772000 ( etc = 0.0 sec, ett = 0.0 sec )
+
+50.0% VDD = 1.810000 ( etc = 0.0 sec, ett = 0.0 sec )
+
+60.0% VDD = 1.848000 ( etc = 0.0 sec, ett = 0.0 sec )
+
+70.0% VDD = 1.886000 ( etc = 0.0 sec, ett = 0.0 sec )
+
+80.0% VDD = 1.924000 ( etc = 0.0 sec, ett = 0.0 sec )
+
+90.0% VDD = 1.962000 ( etc = 0.0 sec, ett = 0.0 sec )
+
+100.0% VDD = 2.000000 ( etc = 0.0 sec, ett = 0.0 sec )
+
+Total solves = 0
+
+Compressing
+
+Total number of nodes (including internal nodes): 51
+
+Resource Usage for Netlist Data Compression
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 0.00 Mb  |
+|------------------------|
+
+finished DC sweep (0.1 sec)
+
+
+
+DC sweep time = 0.1 cpu sec
+
+--- hspicerf done [D:\Non - Windows Files\My ACADEMIC BOOKS\F. 3RD YEAR 2ND
+SEM\ECE132\ECE132.1\Constant gm Current Reference Guides\Hspice Output for
+Constant Gm\Constant gm Current Ref\Constant gn Current referebce
+(18uA)\Constant gm current (18uA).sp] ---
+
+Total time = 0.28 cpu sec
+
+Total memory = 0.00 Mbytes
+
+
+
+
+
+See "Constant gm current (18uA).sp.lis" for results and statistics.

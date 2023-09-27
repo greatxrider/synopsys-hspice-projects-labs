@@ -1,0 +1,26 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "23:21:48 04/16/2018 "
+* "netlist""
+* "runtitle" "*constant gm current reference by jeph daligdig"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ c =   1.5742        
++ d = 106.3590m       
++ e =   1.5737        
++ f = 617.1405m       
++ h = 125.0120m       
++ i =   1.5737        
++ l = 126.4134m       
++ m =  40.0926m       
++ vb1 = 455.9529m       
++ vb2 = 647.5313m       
++ vb3 = 871.5698m       
++ vb4 =   1.1657        
++ vdd =   1.8000        
+***   END: Saved Operating Point ***                     

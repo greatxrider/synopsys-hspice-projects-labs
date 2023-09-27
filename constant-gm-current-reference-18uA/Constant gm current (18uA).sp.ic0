@@ -1,0 +1,26 @@
+* "simulator" "HSPICERF"
+* "version" "B-2008.09"
+* "format" "HSP"
+* "rundate" "21:03:37  07/06/2018"
+* "netlist" "D:\Non - Windows Files\My ACADEMIC BOOKS\F. 3RD YEAR 2ND SEM\ECE132\ECE132.1\Constant gm Current Reference Guides\Hspice Output for Constant Gm\Constant gm Current Ref\Constant gn Current referebce (18uA)\Constant gm current (18uA).sp"
+* "runtitle" "*Constant gm Current Reference by Jeph Daligdig"
+* time = 0
+* temperature = 25
+*** BEGIN: Saved Operating Point ***
+.option
++ gmindc= 1e-012
+.nodeset
++ vdd = 1.8000000000
++ c = 1.4053098221
++ d = 169.6330622265m
++ e = 1.4035684809
++ f = 552.5490715881m
++ h = 196.2655310194m
++ i = 1.4039235015
++ l = 198.5815397134m
++ m = 21.4626935273m
++ vb1 = 518.0635274868m
++ vb2 = 812.4016065856m
++ vb3 = 492.8503563167m
++ vb4 = 1.0108817477
+*** END: Saved Operating Point ***
