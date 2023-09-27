@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='B-2008.09 32-BIT'
+.TITLE '*4 bit flash adc — renew'
+ tot_power        temper           alter#            
+  2.851e-04         25.0000           1.0000         

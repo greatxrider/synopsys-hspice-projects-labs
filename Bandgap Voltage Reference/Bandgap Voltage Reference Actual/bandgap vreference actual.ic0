@@ -1,0 +1,38 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "03:51:38 08/07/2018 "
+* "netlist""
+* "runtitle" "*voltage ref non-ideal"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vdd =   1.8000        
++ ve2 = 645.6929m       
++ vinm = 686.9663m       
++ vinp = 687.0693m       
++ vout =   1.2298        
++ vref = 728.4457m       
++ xopamp.c =   1.4053        
++ xopamp.d = 169.6300m       
++ xopamp.e =   1.4036        
++ xopamp.f = 552.5469m       
++ xopamp.h = 196.2627m       
++ xopamp.i =   1.4039        
++ xopamp.l = 198.5783m       
++ xopamp.m =  21.4630m       
++ xopamp.n1 =   1.4036        
++ xopamp.vb1 = 518.0621m       
++ xopamp.vb2 = 812.3959m       
++ xopamp.vb3 = 492.8647m       
++ xopamp.vb4 =   1.0109        
++ xopamp.vc =   1.1581        
++ xopamp.vdd =   1.8000        
++ xopamp.vg1 =   1.1796        
++ xopamp.vg2 = 552.9698m       
++ xopamp.vs1 = 125.0459m       
++ xopamp.vx =   1.1581        
+***   END: Saved Operating Point ***                     

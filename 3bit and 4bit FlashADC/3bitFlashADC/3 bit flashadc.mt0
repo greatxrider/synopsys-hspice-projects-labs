@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='B-2008.09 32-BIT'
+.TITLE '.protect'
+ tot_power        temper           alter#            
+  3.794e-04         25.0000           1.0000         

@@ -1,0 +1,14 @@
+ ****** HSPICE -- B-2008.09 32-BIT (Aug 26 2008) winnt ******                   
+  Copyright (C) 2008 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the 
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the 
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File:                                                                   
+ Init: read install configuration file: C:\synopsys\Hspice_B-2008.09\meta.cfg
+ Init: hspice initialization file: C:\synopsys\Hspice_B-2008.09\hspice.ini
+  END
+  **error** (d:\users\jeph mari\documents\my academic books\f. 3rd year 2nd sem\ece132\ece132.1\bandgap voltage reference by seniors\000000vbr_ideal_opamp.sp:3)  could not find library file named mm018.l
+
+               ***** job aborted

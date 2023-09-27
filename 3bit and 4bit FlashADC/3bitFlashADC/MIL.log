@@ -1,0 +1,27 @@
+pnlAddPane();
+nil
+1
+designOpen("d:\\non - windows files\\my academic books\\f. 3rd year 2nd sem\\ece132\\ece132.1\\3bit and 4bit flashadc\\3bitflashadc\\3 bit flashadc.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","v(g1)"), node(D0,"A0","TIME"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(g2)"), node(D0,"A0","TIME"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(g3)"), node(D0,"A0","TIME"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+Print("", "all", "multi", 0, "a4", "landscape", "color", "regular", 0);
+t
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

@@ -1,0 +1,11 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\users\\jephm\\desktop\\hspice simulations\\4bit flash renew\\4bit flash.sp");
+"D0"
+t
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

@@ -1,0 +1,41 @@
+pnlAddPane();
+nil
+1
+designOpen("d:\\non - windows files\\my academic books\\f. 3rd year 2nd sem\\ece132\\ece132.1\\bandgap voltage reference\\last trial\\final trial bandgap voltage reference ideal\\bandgap vreference ideal.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A1","v(vref)"), node(D0,"A1","VOLTS"));
+nil
+pnlDelCurve(1, node(D0,"A1","v(vref)"), node(D0,"A1","VOLTS"));
+nil
+pnlAddCurve(1, node(D0,"A1","v(vinm)"), node(D0,"A1","VOLTS"));
+nil
+pnlAddCurve(1, node(D0,"A1","v(vinp,ve2)"), node(D0,"A1","VOLTS"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+pnlDelCurve(1, node(D0,"A1","v(vinp,ve2)"), node(D0,"A1","VOLTS"));
+nil
+pnlDelCurve(1, node(D0,"A1","v(vinm)"), node(D0,"A1","VOLTS"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(vref)"), node(D0,"A0","DEG_C"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(vinm)"), node(D0,"A0","DEG_C"));
+nil
+pnlDelCurve(1, node(D0,"A0","v(vref)"), node(D0,"A0","DEG_C"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(vref)"), node(D0,"A0","DEG_C"));
+nil
+pnlDelCurve(1, node(D0,"A0","v(vinm)"), node(D0,"A0","DEG_C"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(vinm)"), node(D0,"A0","DEG_C"));
+nil
+pnlDelCurve(1, node(D0,"A0","v(vinm)"), node(D0,"A0","DEG_C"));
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

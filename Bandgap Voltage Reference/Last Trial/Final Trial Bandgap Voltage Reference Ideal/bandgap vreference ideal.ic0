@@ -1,0 +1,19 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "01:57:38 06/24/2018 "
+* "netlist""
+* "runtitle" "*voltage ref ideal"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vdd =   1.8000        
++ ve2 = 645.8349m       
++ vinm = 687.0625m       
++ vinp = 687.4417m       
++ vout =   1.2272        
++ vref =   1.2458        
+***   END: Saved Operating Point ***                     

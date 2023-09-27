@@ -1,0 +1,13 @@
+pnlAddPane();
+nil
+1
+designOpen("d:\\jephmari files\\my academic files\\f. 3rd year 2nd sem\\ece132\\ece132.1\\bandgap voltage reference\\bandgap voltage reference actual\\bandgap vreference actual.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","v(vref)"), node(D0,"A0","DEG_C"));
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil
