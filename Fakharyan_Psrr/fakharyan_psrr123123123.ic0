@@ -1,0 +1,25 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "12:34:33 03/15/2018 "
+* "netlist""
+* "runtitle" "*fakharyan_psrr"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ ac =   0.            
++ vdd = 900.0000m       
++ vref = 899.4892m       
++ wire1 = 453.7828m       
++ wire2 = 340.7194m       
++ wire3 = 170.6642m       
++ wire4 = 415.4689m       
++ wire5 = 164.4501m       
++ wire6 = 578.5896m       
++ wire7 = 327.6584m       
++ wire8 = 740.4342m       
++ wire9 = 489.8464m       
+***   END: Saved Operating Point ***                     

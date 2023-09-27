@@ -1,0 +1,37 @@
+pnlAddPane();
+nil
+1
+designOpen("e:\\jephmari files\\my academic files\\i. 4th year 2nd sem\\ece171\\simulations\\latest simulations\\fakharyan_psrr\\fakharyan_psrr123123123.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","vdb(vref)"), node(D0,"A0","HERTZ"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+pnlDelCurve(1, node(D0,"A0","vdb(vref)"), node(D0,"A0","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A0","vdb(vref)"), node(D0,"A0","HERTZ"));
+nil
+pnlDelCurve(1, node(D0,"A0","vdb(vref)"), node(D0,"A0","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A0","vdb(vref)"), node(D0,"A0","HERTZ"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil
