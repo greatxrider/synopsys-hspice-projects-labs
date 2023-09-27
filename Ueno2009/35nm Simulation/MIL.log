@@ -1,0 +1,27 @@
+pnlAddPane();
+nil
+1
+designOpen("e:\\jephmari files\\my academic files\\h. 4th year 1st sem\\ece170\\simulations\\ueno2009\\35nm simulation\\ueno2009.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A1","v(vref)"), node(D0,"A1","VOLTS"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+pnlAddCurve(1, node(D0,"A1","VOLTS"), node(D0,"A1","VOLTS"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

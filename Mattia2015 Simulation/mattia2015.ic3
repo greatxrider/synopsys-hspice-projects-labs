@@ -1,0 +1,22 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "22:06:40 01/19/2019 "
+* "netlist" "e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulations\mattia2015 simulation\mattia2015.sp "
+* "runtitle" "*mattia2015"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vdd = 500.0000m       
++ vref = 367.8394m       
++ wire1 = 136.6304m       
++ wire2 = 494.3515m       
++ wire3 = 136.3659m       
++ wire4 = 136.6250m       
++ wire5 = 319.0386m       
++ wire6 = 257.1215m       
++ wire7 = 428.4303m       
+***   END: Saved Operating Point ***                     

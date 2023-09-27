@@ -1,0 +1,27 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\jephmari files\\my academic files\\g. 3rd year summer term\\ece197\\simulations\\myungjun\\192nwsinglebjt.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","v(vo)"), node(D0,"A0","DEG_C"));
+nil
+pnlDelCurve(1, node(D0,"A0","v(vo)"), node(D0,"A0","DEG_C"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(wire7,wire5)"), node(D0,"A0","DEG_C"));
+nil
+pnlDelCurve(1, node(D0,"A0","v(wire7,wire5)"), node(D0,"A0","DEG_C"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(vo,wire7)"), node(D0,"A0","DEG_C"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+pnlDelCurve(1, node(D0,"A0","v(vo,wire7)"), node(D0,"A0","DEG_C"));
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

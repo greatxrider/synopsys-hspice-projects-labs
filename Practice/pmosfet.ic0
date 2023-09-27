@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "22:10:06 11/02/2018 "
+* "netlist" "d:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulations\practice\pmosfet.sp "
+* "runtitle" "*practice"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a1 = 749.0076m       
++ a2 =   1.8000        
++ vdd =   1.8000        
+***   END: Saved Operating Point ***                     

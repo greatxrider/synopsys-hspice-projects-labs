@@ -1,0 +1,28 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "10:57:38 08/15/2018 "
+* "netlist" "c:\jephmari files\my academic files\g. 3rd year summer term\ece197\simulations\myungjun\192nwsinglebjt.sp "
+* "runtitle" "*192nwsinglebjt"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vbias = 394.4655m       
++ vdd =   1.3000        
++ vo = 733.8315m       
++ vo1 =   1.2670        
++ wire1 =   0.            
++ wire10 = 769.9285m       
++ wire11 = 349.0854m       
++ wire12 = 347.0976m       
++ wire13 =   7.4961m       
++ wire2 =   1.2962        
++ wire4 = 425.7881m       
++ wire5 = 733.8313m       
++ wire6 = 191.1604m       
++ wire7 = 733.8314m       
++ wire8 =   1.2675        
+***   END: Saved Operating Point ***                     

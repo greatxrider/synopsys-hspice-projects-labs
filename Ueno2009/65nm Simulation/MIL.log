@@ -1,0 +1,11 @@
+pnlAddPane();
+nil
+1
+designOpen("e:\\jephmari files\\my academic files\\h. 4th year 1st sem\\ece170\\simulations\\ueno2009\\65nm simulation\\ueno2009.sp");
+"D0"
+t
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

@@ -1,0 +1,27 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "14:08:20 08/15/2018 "
+* "netlist" "c:\jephmari files\my academic files\g. 3rd year summer term\ece197\simulations\myungjun resimulation\myungjungres.sp "
+* "runtitle" "*myungjungres_2"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vbe = 582.8348m       
++ vbias = 318.6574m       
++ vdd =   1.1000        
++ vo =   1.0985        
++ vo1 = 775.9564m       
++ wire1 = 888.9298m       
++ wire2 = 839.0196m       
++ wire3 = 403.5741m       
++ wire4 = 744.6137m       
++ wire5 = 790.7661m       
++ wire6 = 492.3174m       
++ wire7 = 219.6092m       
++ wire8 = 218.5012m       
++ wire9 =   2.9380m       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,30 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "09:41:41 01/20/2018 "
+* "netlist" "e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulations\ueno2009\35nm simulation\ueno2009.sp "
+* "runtitle" "*ueno2009"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vdd =   1.4000        
++ vref =   1.3996        
++ wire1 = 137.2657m       
++ wire10 = 747.8403m       
++ wire11 =  93.4671m       
++ wire12 =   1.3001        
++ wire13 = 727.5233m       
++ wire14 =   1.3921        
++ wire15 = 970.6775m       
++ wire2 =   8.7911n       
++ wire3 =   1.0711        
++ wire4 = 742.1061m       
++ wire5 = 134.7051m       
++ wire6 =   1.3675        
++ wire7 = 123.6518m       
++ wire8 = 637.6835m       
++ wire9 =   1.2445        
+***   END: Saved Operating Point ***                     

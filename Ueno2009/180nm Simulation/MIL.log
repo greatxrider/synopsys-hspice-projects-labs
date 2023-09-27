@@ -1,0 +1,17 @@
+pnlAddPane();
+nil
+1
+designOpen("d:\\jephmari files\\my academic files\\h. 4th year 1st sem\\ece170\\simulations\\ueno2009\\180nm simulation\\ueno2009.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","v(vref)"), node(D0,"A0","DEG_C"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

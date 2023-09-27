@@ -1,0 +1,199 @@
+***** HSPICE -- B-2008.09 32-BIT (Aug 26 2008) winnt ******
+ Input File: e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simu
+ lic:
+ lic: FLEXlm: v8.5b
+ lic: USER:   dalig                HOSTNAME: JEPH
+ lic: HOSTID: "a8a1596fdb92 005056c00001 005056c00008 00ff0f185f0f 000000000000"
+ lic: Using FLEXlm license file:
+ lic: E:\JephMari Files\MY ACADEMIC FILES\E. 3RD YEAR 1ST SEM\ECE130\Hspice 2008
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2020/2007.9
+ lic: NODE LOCKED license on hostid "a8a1596fdb92 005056c00001 005056c00008 00ff
+ lic:
+ Init: hspice initialization file: C:\synopsys\Hspice_B-2008.09\hspice.ini
+ init: begin read circuit files,  cpu clock=  1.75E-01
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\FET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+       option post
+       option probe
+ init: end read circuit files,  cpu clock=  3.09E-01 memory=    276 kb
+ init: begin check errors,  cpu clock=  3.09E-01
+ init: end check errors,  cpu clock=  3.31E-01 memory=    335 kb
+ init: begin setup matrix, pivot=    10 cpu clock=  3.31E-01
+       establish matrix -- done,  cpu clock=  3.46E-01 memory=    356 kb
+       re-order matrix -- done,  cpu clock=  3.53E-01 memory=    363 kb
+ init: end setup matrix,  cpu clock=  3.61E-01 memory=    398 kb
+ output: e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulati
+ sweep: dc dc0    begin, #sweeps=1001 cpu clock=  3.78E-01
+ sweep: dc dc0    end,  cpu clock=  5.96E-01 memory=    398 kb
+ output: e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulati
+ sweep: dc dc0    begin, #sweeps=  21 cpu clock=  6.13E-01
+ sweep: dc dc0    end,  cpu clock=  6.25E-01 memory=    398 kb
+ dcop: begin dcop,  cpu clock=  6.33E-01
+ dcop: end dcop,  cpu clock=  6.43E-01 memory=    398 kb  tot_iter=      17
+>info:         ***** hspice job concluded
+>alter:
+ init: begin read circuit files,  cpu clock=  7.12E-01
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\FET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+       option post
+       option probe
+ init: end read circuit files,  cpu clock=  8.53E-01 memory=    276 kb
+ init: begin check errors,  cpu clock=  8.53E-01
+ init: end check errors,  cpu clock=  8.76E-01 memory=    335 kb
+ init: begin setup matrix, pivot=    10 cpu clock=  8.76E-01
+       establish matrix -- done,  cpu clock=  8.91E-01 memory=    356 kb
+       re-order matrix -- done,  cpu clock=  8.98E-01 memory=    363 kb
+ init: end setup matrix,  cpu clock=  9.05E-01 memory=    398 kb
+ output: e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulati
+ sweep: dc dc0    begin, #sweeps=1001 cpu clock=  9.21E-01
+ sweep: dc dc0    end,  cpu clock=  1.47E+00 memory=    398 kb
+ output: e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulati
+ sweep: dc dc0    begin, #sweeps=  21 cpu clock=  1.49E+00
+ sweep: dc dc0    end,  cpu clock=  1.50E+00 memory=    398 kb
+ dcop: begin dcop,  cpu clock=  1.51E+00
+ dcop: end dcop,  cpu clock=  1.52E+00 memory=    398 kb  tot_iter=      63
+>info:         ***** hspice job concluded
+>alter:
+ init: begin read circuit files,  cpu clock=  1.59E+00
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\FET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+       option post
+       option probe
+ init: end read circuit files,  cpu clock=  1.75E+00 memory=    276 kb
+ init: begin check errors,  cpu clock=  1.75E+00
+ init: end check errors,  cpu clock=  1.77E+00 memory=    335 kb
+ init: begin setup matrix, pivot=    10 cpu clock=  1.77E+00
+       establish matrix -- done,  cpu clock=  1.78E+00 memory=    356 kb
+       re-order matrix -- done,  cpu clock=  1.79E+00 memory=    363 kb
+ init: end setup matrix,  cpu clock=  1.80E+00 memory=    398 kb
+ output: e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulati
+ sweep: dc dc0    begin, #sweeps=1001 cpu clock=  1.81E+00
+ sweep: dc dc0    end,  cpu clock=  2.01E+00 memory=    398 kb
+ output: e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulati
+ sweep: dc dc0    begin, #sweeps=  21 cpu clock=  2.03E+00
+ sweep: dc dc0    end,  cpu clock=  2.04E+00 memory=    398 kb
+ dcop: begin dcop,  cpu clock=  2.04E+00
+ dcop: end dcop,  cpu clock=  2.06E+00 memory=    398 kb  tot_iter=      16
+>info:         ***** hspice job concluded
+>alter:
+ init: begin read circuit files,  cpu clock=  2.12E+00
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\FET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+       option post
+       option probe
+ init: end read circuit files,  cpu clock=  2.28E+00 memory=    276 kb
+ init: begin check errors,  cpu clock=  2.28E+00
+ init: end check errors,  cpu clock=  2.30E+00 memory=    335 kb
+ init: begin setup matrix, pivot=    10 cpu clock=  2.30E+00
+       establish matrix -- done,  cpu clock=  2.31E+00 memory=    356 kb
+       re-order matrix -- done,  cpu clock=  2.32E+00 memory=    363 kb
+ init: end setup matrix,  cpu clock=  2.33E+00 memory=    398 kb
+ output: e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulati
+ sweep: dc dc0    begin, #sweeps=1001 cpu clock=  2.34E+00
+ sweep: dc dc0    end,  cpu clock=  2.54E+00 memory=    398 kb
+ output: e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulati
+ sweep: dc dc0    begin, #sweeps=  21 cpu clock=  2.57E+00
+ sweep: dc dc0    end,  cpu clock=  2.58E+00 memory=    398 kb
+ dcop: begin dcop,  cpu clock=  2.59E+00
+ dcop: end dcop,  cpu clock=  2.60E+00 memory=    398 kb  tot_iter=      68
+>info:         ***** hspice job concluded
+>alter:
+ init: begin read circuit files,  cpu clock=  2.67E+00
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\FET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+       option post
+       option probe
+ init: end read circuit files,  cpu clock=  2.82E+00 memory=    276 kb
+ init: begin check errors,  cpu clock=  2.82E+00
+ init: end check errors,  cpu clock=  2.84E+00 memory=    335 kb
+ init: begin setup matrix, pivot=    10 cpu clock=  2.84E+00
+       establish matrix -- done,  cpu clock=  2.86E+00 memory=    356 kb
+       re-order matrix -- done,  cpu clock=  2.87E+00 memory=    363 kb
+ init: end setup matrix,  cpu clock=  2.88E+00 memory=    398 kb
+ output: e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulati
+ sweep: dc dc0    begin, #sweeps=1001 cpu clock=  2.89E+00
+ sweep: dc dc0    end,  cpu clock=  3.11E+00 memory=    398 kb
+ output: e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulati
+ sweep: dc dc0    begin, #sweeps=  21 cpu clock=  3.13E+00
+ sweep: dc dc0    end,  cpu clock=  3.14E+00 memory=    398 kb
+ dcop: begin dcop,  cpu clock=  3.15E+00
+ dcop: end dcop,  cpu clock=  3.16E+00 memory=    398 kb  tot_iter=      18
+>info:         ***** hspice job concluded
+ Init: hspice initialization file: C:\synopsys\Hspice_B-2008.09\hspice.ini
+ lic: Release hspice token(s)
