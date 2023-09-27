@@ -1,0 +1,17 @@
+pnlAddPane();
+nil
+1
+designOpen("d:\\non - windows files\\my academic books\\f. 3rd year 2nd sem\\ece132\\ece132.1\\constant gm current reference guides\\hspice output for constant gm\\constant gm + two stage at 18ua\\constant gm current (18ua) + two stage.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A1","VOLTS"), node(D0,"A1","VOLTS"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

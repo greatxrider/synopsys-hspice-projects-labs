@@ -1,0 +1,11 @@
+pnlAddPane();
+nil
+1
+designOpen("d:\\non - windows files\\my academic books\\f. 3rd year 2nd sem\\ece132\\ece132.1\\constant gm current reference guides\\hspice output for constant gm\\constant gm current ref\\constant gm current reference (18.33ua)\\constant gm 18.33ua.sp");
+"D0"
+t
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

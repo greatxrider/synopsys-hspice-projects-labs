@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='B-2008.09 32-BIT'
+.TITLE '*constant gm current reference + two stage op amp'
+ gb               temper           alter#            
+  7.263e+06         25.0000           1.0000         

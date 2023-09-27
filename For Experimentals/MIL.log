@@ -1,0 +1,17 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\users\\jeph mari\\documents\\my academic books\\f. 3rd year 2nd sem\\ece132\\ece132.1\\constant gm current reference guides hspice\\hspice output for constant gm\\ex\\test constant gm.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","i(r)"), node(D0,"A0","VOLTS"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

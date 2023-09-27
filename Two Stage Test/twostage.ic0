@@ -1,0 +1,22 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "12:57:27 08/15/2018 "
+* "netlist""
+* "runtitle" "twostage amplifier_step3"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vc = 150.1872m       
++ vdd = 500.0000m       
++ vg1 = 150.1872m       
++ vg2 = 311.4855m       
++ vinn =   1.1000        
++ vinp =   1.1000        
++ vout =  82.2513m       
++ vs1 = 150.0803m       
++ vx = 150.1872m       
+***   END: Saved Operating Point ***                     

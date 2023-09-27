@@ -1,0 +1,13 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\jephmari files\\my academic files\\f. 3rd year 2nd sem\\ece132\\ece132.1\\constant gm current reference guides\\hspice output for constant gm\\two stage test\\twostage.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","vr(vx)"), node(D0,"A0","HERTZ"));
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil
