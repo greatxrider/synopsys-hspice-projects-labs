@@ -1,0 +1,17 @@
+pnlAddPane();
+nil
+1
+designOpen("d:\\non - windows files\\my academic books\\f. 3rd year 2nd sem\\ece132\\ece132.1\\sample and hold hspice\\ideal\\sample&hold-ideal.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","v(x)"), node(D0,"A0","TIME"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

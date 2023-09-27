@@ -1,0 +1,56 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "01:00:18 06/25/2018 "
+* "netlist""
+* "runtitle" "*sample&hold non-ideal op-amp"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vg =   2.5000        
++ vinm1 =   0.            
++ vinm2 = 130.2224n       
++ vout1 = 130.2224n       
++ vout2 = 130.3679n       
++ xopamp1.c =   1.4053        
++ xopamp1.d = 169.6300m       
++ xopamp1.e =   1.4036        
++ xopamp1.f = 552.5469m       
++ xopamp1.h = 196.2627m       
++ xopamp1.i =   1.4039        
++ xopamp1.l = 198.5783m       
++ xopamp1.m =  21.4630m       
++ xopamp1.n1 =   1.4036        
++ xopamp1.vb1 = 518.0621m       
++ xopamp1.vb2 = 812.3959m       
++ xopamp1.vb3 = 492.8647m       
++ xopamp1.vb4 =   1.0109        
++ xopamp1.vc =   1.7392        
++ xopamp1.vdd =   1.8000        
++ xopamp1.vg1 =   1.7391        
++ xopamp1.vg2 = 552.9698m       
++ xopamp1.vs1 =  96.5633n       
++ xopamp1.vx =   1.7392        
++ xopamp2.c =   1.4053        
++ xopamp2.d = 169.6300m       
++ xopamp2.e =   1.4036        
++ xopamp2.f = 552.5469m       
++ xopamp2.h = 196.2627m       
++ xopamp2.i =   1.4039        
++ xopamp2.l = 198.5783m       
++ xopamp2.m =  21.4630m       
++ xopamp2.n1 =   1.4036        
++ xopamp2.vb1 = 518.0621m       
++ xopamp2.vb2 = 812.3959m       
++ xopamp2.vb3 = 492.8647m       
++ xopamp2.vb4 =   1.0109        
++ xopamp2.vc =   1.7391        
++ xopamp2.vdd =   1.8000        
++ xopamp2.vg1 =   1.7391        
++ xopamp2.vg2 = 552.9698m       
++ xopamp2.vs1 =  96.5632n       
++ xopamp2.vx =   1.7391        
+***   END: Saved Operating Point ***                     
