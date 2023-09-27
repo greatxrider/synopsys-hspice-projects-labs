@@ -1,0 +1,64 @@
+***** HSPICE -- B-2008.09 32-BIT (Aug 26 2008) winnt ******
+ Input File:
+ lic:
+ lic: FLEXlm: v8.5b
+ lic: USER:   Jeph Mari            HOSTNAME: JephMari-PC
+ lic: HOSTID: "2cfda1be3b25 502b73cc0c89 522b73cc0c89 502b73cc0c89" PID:      85
+ lic: Using FLEXlm license file:
+ lic: C:\Users\Jeph Mari\Documents\My ACADEMIC BOOKS\E. 3RD YEAR 1ST SEM\ECE130\
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2020/2007.9
+ lic: NODE LOCKED license on hostid "2cfda1be3b25 502b73cc0c89 522b73cc0c89 502b
+ lic:
+ Init: hspice initialization file: C:\synopsys\Hspice_B-2008.09\hspice.ini
+ init: begin read circuit files,  cpu clock=  1.40E-01
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\TI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\FET\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\behave\
+       option search   = C:\synopsys\Hspice_B-2008.09\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+       option post
+       option probe
+ init: end read circuit files,  cpu clock=  2.67E-01 memory=    145 kb
+ init: begin check errors,  cpu clock=  2.67E-01
+ init: end check errors,  cpu clock=  2.87E-01 memory=    164 kb
+ init: begin setup matrix, pivot=    10 cpu clock=  2.87E-01
+       establish matrix -- done,  cpu clock=  2.97E-01 memory=    166 kb
+       re-order matrix -- done,  cpu clock=  3.07E-01 memory=    166 kb
+ init: end setup matrix,  cpu clock=  3.17E-01 memory=    175 kb
+ sweep: dc dc0    begin, #sweeps= 601 cpu clock=  3.17E-01
+ sweep: dc dc0    end,  cpu clock=  3.37E-01 memory=    175 kb
+ sweep: dc dc0    begin, #sweeps= 601 cpu clock=  3.47E-01
+ sweep: dc dc0    end,  cpu clock=  3.57E-01 memory=    175 kb
+ dcop: begin dcop,  cpu clock=  3.67E-01
+ dcop: end dcop,  cpu clock=  3.77E-01 memory=    175 kb  tot_iter=       4
+ dcop: begin dcop,  cpu clock=  3.87E-01
+ dcop: end dcop,  cpu clock=  3.97E-01 memory=    175 kb  tot_iter=       9
+ output: c:\users\jeph mari\documents\my academic books\f. 3rd year 2nd sem\ece1
+ sweep: tran tran0    begin, stop_t=  2.09E-04 #sweeps=1801 cpu clock=  4.07E-01
+ tran: time= 2.0907E-05 tot_iter=   16447 conv_iter=    8133 cpu clock= 5.07E-01
+ tran: time= 4.1800E-05 tot_iter=   23133 conv_iter=   11476 cpu clock= 5.57E-01
+ tran: time= 6.2700E-05 tot_iter=   29821 conv_iter=   14820 cpu clock= 6.06E-01
+ tran: time= 8.3600E-05 tot_iter=   36509 conv_iter=   18164 cpu clock= 6.53E-01
+ tran: time= 1.0450E-04 tot_iter=   63130 conv_iter=   31298 cpu clock= 7.90E-01
+ tran: time= 1.2540E-04 tot_iter=   69818 conv_iter=   34642 cpu clock= 8.40E-01
+ tran: time= 1.4630E-04 tot_iter=   76506 conv_iter=   37986 cpu clock= 8.80E-01
+ tran: time= 1.6720E-04 tot_iter=   83194 conv_iter=   41330 cpu clock= 9.30E-01
+ tran: time= 1.8810E-04 tot_iter=   89882 conv_iter=   44674 cpu clock= 9.80E-01
+ tran: time= 2.0900E-04 tot_iter=  116644 conv_iter=   57861 cpu clock= 1.12E+00
+ sweep: tran tran0    end,  cpu clock=  1.13E+00 memory=    437 kb
+>info:         ***** hspice job concluded
+ Init: hspice initialization file: C:\synopsys\Hspice_B-2008.09\hspice.ini
+ lic: Release hspice token(s)

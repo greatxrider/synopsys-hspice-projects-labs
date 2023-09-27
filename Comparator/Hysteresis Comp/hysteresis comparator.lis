@@ -1,0 +1,290 @@
+ ****** HSPICE -- B-2008.09 32-BIT (Aug 26 2008) winnt ******                   
+  Copyright (C) 2008 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the 
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the 
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File:                                                                   
+ Init: read install configuration file: C:\synopsys\Hspice_B-2008.09\meta.cfg
+ Init: hspice initialization file: C:\synopsys\Hspice_B-2008.09\hspice.ini
+
+
+
+
+
+ vdd          vdd          gnd          1.8v
+ iref          vbias       gnd           18u
+ *hysteresis
+
+ mp1	c	in-	a	vdd	pch	l=1u	w=3u	m=1
+ mp2	d	in+	a	vdd	pch	l=1u	w=3u	m=1
+ mn3	c	c	gnd	gnd	nch	l=1u	w=1u	m=1
+ mn4	d	d	gnd	gnd	nch	l=1u	w=1u	m=1
+ mn5	d	c	gnd	gnd	nch	l=1u	w=1u	m=2
+ mn6	c	d	gnd	gnd	nch	l=1u	w=1u	m=2
+ mn7	out	d	gnd 	gnd	nch	l=1u	w=1u	m=1
+ mp8	b	b	vdd	vdd	pch	l=1u	w=3u	m=1
+ mn9	b	c	gnd	gnd	nch	l=1u	w=1u	m=1
+ mp10	out	b	vdd	vdd	pch	l=1u	w=3u	m=1
+ mp11	a	vbias	vdd	vdd	pch	l=1u	w=3u	m=2
+
+ mp12	out1	out	vdd	vdd	pch	l=1u	w=3u	m=1
+ mn13	out1	out	gnd	gnd	nch	l=1u	w=1u	m=1
+ mp14	out2	out1	vdd	vdd	pch	l=1u	w=3u	m=1
+ mn15	out2	out1	gnd	gnd	nch	l=1u	w=1u	m=1
+
+ mpbias	vbias	vbias	vdd	vdd	pch	l=1u	w=3u	m=2
+
+ vinput-	in-	gnd	dc=0.9v 
+ vinput+	in+	nodeh	dc=0 sin(0.9v 0.9v 5k 0 0 0)
+ vnoise      nodeh      gnd          dc=0 sin(0 140mv 10000000 0 0 0)
+
+ *vinput+	in+	nodeh	dc=0 pwl(0s 0, 100u 1.8v, 200u 0, r)
+
+ vdiff	vinput+    vinput-     0v
+
+ .op
+ .option post probe
+ .dc in+  -1.8v 1.8v 0.01v
+ .dc in+ 1.8v 1.8v  -0.01v
+ .tran 0.01u 211u start=194u
+ .probe tran v(in-) v(in+) v(out)
+
+ ***********************************************************************
+ ** runlvl is invoked, you can disable it by:
+      a) Add option runlvl=0 to your current simulation job.
+      b) Copy $installdir/hspice.ini to your HOME directory and
+         customize it by adding option runlvl=0, which disables
+         it for all of your simulation jobs.
+      c) Re-invoke $installdir/bin/config program and unselect the
+         option runlvl setting in box 'hspice.ini' which disables
+         it for whole group simulation jobs.
+
+ ** runlvl is invoked, some options are ignored or automatically set:
+      Options below are automatically set(user setting will overwrite them):
+      if runlvl=[1|2|3|4|5|6],  .option bypass=2
+
+      Options below are ignored, they are replaced by automated algorithms:
+        lvltim    dvdt      ft    fast   trtol  absvar  relvar
+          relq  chgtol    dvtr    imin    itl3    rmax
+
+ ** runlvl is invoked, actual option value used by HSPICE are:
+       runlvl= 3       bypass= 2      mbypass=   2.00   bytol= 100.00u
+ ***********************************************************************
+
+
+   **warning** cannot find any usefulness of parameter sweeping:in+              just create it anyway
+
+ 
+
+ 
+
+ **warning** the following singular supplies were terminated to 1 meg resistor 
+   supply       node1            node2
+  vdiff                   0:vinput+          defined in subckt 0                     0:vinput-          defined in subckt 0               
+  vdiff                   0:vinput+          defined in subckt 0                     0:vinput-          defined in subckt 0               
+      
+ **warning** no probe statements specified, thus .sw# omitted
+
+ **diagnostic** rebuilding matrix with pivot option
+
+
+ **diagnostic** rebuilding matrix without pivot option
+
+ **warning** no probe statements specified, thus .sw# omitted
+
+ **diagnostic** rebuilding matrix with pivot option
+
+
+ **diagnostic** rebuilding matrix without pivot option
+
+
+ **diagnostic** rebuilding matrix with pivot option
+
+
+ **diagnostic** rebuilding matrix without pivot option
+
+1****** HSPICE -- B-2008.09 32-BIT (Aug 26 2008) winnt ******                   
+ ******  
+ *hysteresis comparator
+
+  ******  operating point information tnom=  25.000 temp=  25.000 *****
+ ***** operating point status is all       simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:a       =   1.1449  0:b       =   1.7383  0:c       =  29.7760n
+ +0:d       = 789.1236m 0:in+     =   0.      0:in-     = 900.0000m
+ +0:nodeh   =   0.      0:out     =  92.2686n 0:out1    =   1.8000 
+ +0:out2    =  13.1590n 0:vbias   =   1.0324  0:vdd     =   1.8000 
+ +0:vinput+ =   0.      0:vinput- =   0.     
+
+
+ ****  voltage sources
+
+ subckt                                                         
+ element  0:vdd      0:vinput-  0:vinput+  0:vnoise   0:vdiff   
+  volts      1.8000   900.0000m    0.         0.         0.     
+  current  -35.9138u    0.         0.         0.         0.     
+  power     64.6448u    0.         0.         0.         0.     
+
+     total voltage source power dissipation=   64.6448u       watts
+
+
+
+ ***** current sources
+
+ subckt             
+ element  0:iref    
+  volts      1.0324 
+  current   18.0000u
+  power    -18.5830u
+
+
+     total current source power dissipation= -18.5830u       watts
+
+
+ **** mosfets
+
+
+ subckt                                                                    
+ element  0:mp1      0:mp2      0:mn3      0:mn4      0:mn5      0:mn6     
+ model    0:pch.5    0:pch.5    0:nch.8    0:nch.8    0:nch.8    0:nch.8   
+ region       Cutoff     Linear     Cutoff   Saturati     Cutoff     Linear
+  id        -3.3511p  -17.9137u    1.3698a   17.9137u    2.9290p    6.3021p
+  ibs        6.1259f    6.1259f    0.      -4.564e-20 -1.149e-26 -1.606e-26
+  ibd        6.1259f    6.1259f -5.581e-23  -69.0788a  -96.3271a -1.116e-22
+  vgs     -244.8575m   -1.1449    29.7760n  789.1236m   29.7760n  789.1236m
+  vds       -1.1449  -355.7338m   29.7760n  789.1236m  789.1236m   29.7760n
+  vbs      655.1425m  655.1425m    0.         0.         0.         0.     
+  vth     -642.7726m -642.9988m  482.6091m  482.4342m  482.4272m  482.6091m
+  vdsat    -41.8533m -439.9664m   48.0946m  312.7831m   48.0946m  312.6629m
+  vod      397.9152m -501.8587m -482.6091m  306.6894m -482.4272m  306.5145m
+  beta     195.2501u  173.5175u  376.3548u  363.0281u  752.7298u  726.0323u
+  gam eff  493.6871m  493.6869m  533.6330m  533.6329m  533.6330m  533.6330m
+  gm       111.4527p   52.4820u   42.7525a   99.8266u   91.4143p   19.5844p
+  gds      287.2037f   18.0971u   46.0043p  698.7983n  280.5564f  211.7102u
+  gmb       30.0010p   15.4968u   13.8122a   28.8650u   29.4056p    5.9878p
+  cdtot      3.2640f   12.6097f    1.4580f    1.2160f    2.4320f   17.0733f
+  cgtot      7.1424f   23.7230f    3.0750f    6.6532f    6.1501f   17.8964f
+  cstot      3.8264f   24.0160f    1.4580f    8.3678f    2.9161f   17.9999f
+  cbtot     10.3362f   11.0772f    4.5544f    4.2814f    8.6248f    9.3403f
+  cgs      974.1600a   16.6451f  359.1700a    5.5040f  718.3400a    8.7794f
+  cgd      974.1600a    6.1894f  359.1700a  359.1700a  718.3400a    8.7794f
+
+
+
+ subckt                                                                    
+ element  0:mn7      0:mp8      0:mn9      0:mp10     0:mp11     0:mp12    
+ model    0:nch.8    0:pch.5    0:nch.8    0:pch.5    0:pch.5    0:pch.5   
+ region       Linear     Cutoff     Cutoff     Cutoff   Saturati     Linear
+  id         9.7643p   -4.9432p    1.5952p   -6.1581p  -17.9137u   -5.2043p
+  ibs     -2.489e-26  5.727e-25 -8.497e-27  9.108e-25    2.0501a  5.956e-25
+  ibd     -1.729e-22    5.5709f -233.4665a    6.1518f   12.2518f  6.131e-21
+  vgs      789.1236m  -61.6934m   29.7760n  -61.6934m -767.6133m   -1.8000 
+  vds       92.2686n  -61.6934m    1.7383    -1.8000  -655.1425m  -25.7141n
+  vbs        0.         0.         0.         0.         0.         0.     
+  vth      482.6091m -456.8426m  482.2084m -456.4420m -456.7073m -456.8568m
+  vdsat    312.6629m  -40.1144m   48.0946m  -40.1144m -278.2957m   -1.0315 
+  vod      306.5145m  395.1493m -482.2084m  394.7487m -310.9060m   -1.3431 
+  beta     363.0162u  214.3373u  376.3770u  214.3721u  401.6075u  157.9368u
+  gam eff  533.6330m  510.0364m  533.6330m  510.0364m  510.0363m  510.0364m
+  gm        30.3437p  156.9539p   49.7872p  195.5234p  101.4396u    2.5503p
+  gds      105.8551u   12.6694p  137.4805f  519.0681f  831.6698n  202.4317u
+  gmb        9.2773p   55.6345p   16.0131p   69.3190p   33.9934u    1.7743p
+  cdtot      8.5367f    4.4302f    1.0904f    3.2640f    7.6529f   26.2007f
+  cgtot      8.9482f    8.7620f    3.0750f    8.7620f   39.5285f   26.7296f
+  cstot      8.9999f    4.5232f    1.4580f    4.5232f   51.4192f   27.6706f
+  cbtot      4.6701f   13.8188f    4.1868f   12.6525f   26.9563f   14.6557f
+  cgs        4.3897f  974.1600a  359.1700a  974.1600a   33.1533f   13.2409f
+  cgd        4.3897f  974.1600a  359.1700a  974.1600a    1.9483f   13.2409f
+
+
+
+ subckt                                              
+ element  0:mn13     0:mp14     0:mn15     0:mpbias  
+ model    0:nch.8    0:pch.5    0:nch.8    0:pch.5   
+ region       Cutoff     Cutoff     Linear   Saturati
+  id         1.6037p -864.8974f    4.4710p  -18.0000u
+  ibs     -8.676e-27  3.050e-25 -1.140e-26    2.0599a
+  ibd     -293.9693a    6.1295f -2.465e-23   12.2518f
+  vgs       92.2686n  -25.7141n    1.8000  -767.6133m
+  vds        1.8000    -1.8000    13.1590n -767.6133m
+  vbs        0.         0.         0.         0.     
+  vth      482.1942m -456.4420m  482.6091m -456.6814m
+  vdsat     48.0946m  -40.1136m    1.0430  -278.3151m
+  vod     -482.1941m  456.4420m    1.3174  -310.9320m
+  beta     376.3778u  214.3721u  277.1305u  401.6098u
+  gam eff  533.6330m  510.0364m  533.6330m  510.0363m
+  gm        50.0522p   27.5608p    1.7648p  101.9324u
+  gds      137.7280f   72.9255f  340.0841u  714.3208n
+  gmb       16.0982p    9.9465p    1.1408p   34.1570u
+  cdtot      1.0846f    3.2640f    8.5521f    7.4962f
+  cgtot      3.0750f    8.9542f    8.9618f   39.5285f
+  cstot      1.4580f    4.5232f    9.0164f   51.4192f
+  cbtot      4.1810f   12.8448f    4.6713f   26.7997f
+  cgs      359.1700a  974.1600a    4.3985f   33.1533f
+  cgd      359.1700a  974.1600a    4.3985f    1.9483f
+
+
+
+1****** HSPICE -- B-2008.09 32-BIT (Aug 26 2008) winnt ******                   
+ ******  
+ *hysteresis comparator
+
+  ******  operating point information tnom=  25.000 temp=  25.000 *****
+ ***** operating point status is voltage   simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:a       =   1.6560  0:b       =   1.2095  0:c       = 553.8797m
+ +0:d       = 553.8797m 0:in+     = 900.0000m 0:in-     = 900.0000m
+ +0:nodeh   =   0.      0:out     =   1.2095  0:out1    =  10.2240m
+ +0:out2    =   1.8000  0:vbias   =   1.0324  0:vdd     =   1.8000 
+ +0:vinput+ =   0.      0:vinput- =   0.     
+
+
+          ***** job concluded
+1****** HSPICE -- B-2008.09 32-BIT (Aug 26 2008) winnt ******                   
+ ******  
+ *hysteresis comparator
+
+  ******  job statistics summary tnom=  25.000 temp=  25.000 *****
+
+  ******  HSPICE Threads Information  ******
+  Command Line Threads Count:                      0
+  Available CPU Count:                             4
+  Actual Model Evaluation(Load) Threads Count:     1
+  Actual Solver Threads Count:                     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =      47  # elements   =      24
+  # resistors   =       2  # capacitors =       0  # inductors   =       0
+  # mutual_inds =       0  # vccs       =       0  # vcvs        =       0
+  # cccs        =       0  # ccvs       =       0  # volt_srcs   =       5
+  # curr_srcs   =       1  # diodes     =       0  # bjts        =       0
+  # jfets       =       0  # mosfets    =      16  # U elements  =       0
+  # T elements  =       0  # W elements =       0  # B elements  =       0
+  # S elements  =       0  # P elements =       0  # va device   =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.03           1          28
+  dc sweep           0.11         361         756
+  transient          2.16        1701       91992       41851 rev=       376
+  readin             0.14
+  errchk             0.02
+  setup              0.03
+  output             0.00
+
+
+           total memory used          490  kbytes
+           total cpu time            2.56 seconds
+           total elapsed time           2 seconds
+           job started at     04:42:45 06/26/2018
+           job ended   at     04:42:47 06/26/2018
+
+
+ Init: hspice initialization file: C:\synopsys\Hspice_B-2008.09\hspice.ini

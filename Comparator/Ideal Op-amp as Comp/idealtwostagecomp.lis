@@ -1,0 +1,154 @@
+ ****** HSPICE -- B-2008.09 32-BIT (Aug 26 2008) winnt ******                   
+  Copyright (C) 2008 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the 
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the 
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File:                                                                   
+ Init: read install configuration file: C:\synopsys\Hspice_B-2008.09\meta.cfg
+ Init: hspice initialization file: C:\synopsys\Hspice_B-2008.09\hspice.ini
+
+
+
+
+
+ .global gnd vdd
+
+ e vout gnd vinp vinm max=1.8v min=0 3236
+
+ *vinp vinp gnd dc=0.9v
+ vinp vinp gnd dc=0 sin(0.9v 0.9v 5k 0 0 0)
+ vinm vinm nodeh dc=0 sin(0.9v 0.9v 5k 0 0 0)
+ vnoise nodeh gnd dc=0 sin(0 0mv 10000000 0 0 0)
+
+ .op
+ .option post probe
+ .dc vinm -1.8 1.8 0.01
+ .dc vinm 1.8 -1.8 -0.01
+ .tran 0.01u 400u start=0u
+ .probe tran v(vinm) v(vout) v(vinp)
+
+ .end
+
+ ***********************************************************************
+ ** runlvl is invoked, you can disable it by:
+      a) Add option runlvl=0 to your current simulation job.
+      b) Copy $installdir/hspice.ini to your HOME directory and
+         customize it by adding option runlvl=0, which disables
+         it for all of your simulation jobs.
+      c) Re-invoke $installdir/bin/config program and unselect the
+         option runlvl setting in box 'hspice.ini' which disables
+         it for whole group simulation jobs.
+
+ ** runlvl is invoked, some options are ignored or automatically set:
+      Options below are automatically set(user setting will overwrite them):
+      if runlvl=[1|2|3|4|5|6],  .option bypass=2
+
+      Options below are ignored, they are replaced by automated algorithms:
+        lvltim    dvdt      ft    fast   trtol  absvar  relvar
+          relq  chgtol    dvtr    imin    itl3    rmax
+
+ ** runlvl is invoked, actual option value used by HSPICE are:
+       runlvl= 3       bypass= 2      mbypass=   2.00   bytol= 100.00u
+ ***********************************************************************
+
+ 
+
+ **warning** the following singular supplies were terminated to 1 meg resistor 
+   supply       node1            node2
+  e                       0:vout             defined in subckt 0                     0:0                defined in subckt 0               
+      
+ **warning** no probe statements specified, thus .sw# omitted
+ **warning** no probe statements specified, thus .sw# omitted
+1****** HSPICE -- B-2008.09 32-BIT (Aug 26 2008) winnt ******                   
+ ******  
+ * ideal two-stage opamp as comparator
+
+  ******  operating point information tnom=  25.000 temp=  25.000 *****
+ ***** operating point status is all       simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:nodeh   =   0.      0:vinm    =   0.      0:vinp    =   0.     
+ +0:vout    =   0.     
+
+
+ ****  voltage sources
+
+ subckt                                   
+ element  0:vinp     0:vinm     0:vnoise  
+  volts      0.         0.         0.     
+  current    0.         0.         0.     
+  power      0.         0.         0.     
+
+     total voltage source power dissipation=    0.            watts
+
+
+
+ **** voltage-controlled voltage sources
+
+
+ subckt             
+ element  0:e       
+  volts      0.     
+  current    0.     
+
+
+
+1****** HSPICE -- B-2008.09 32-BIT (Aug 26 2008) winnt ******                   
+ ******  
+ * ideal two-stage opamp as comparator
+
+  ******  operating point information tnom=  25.000 temp=  25.000 *****
+ ***** operating point status is voltage   simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:nodeh   =   0.      0:vinm    = 900.0000m 0:vinp    = 900.0000m
+ +0:vout    =   0.     
+
+
+          ***** job concluded
+1****** HSPICE -- B-2008.09 32-BIT (Aug 26 2008) winnt ******                   
+ ******  
+ * ideal two-stage opamp as comparator
+
+  ******  job statistics summary tnom=  25.000 temp=  25.000 *****
+
+  ******  HSPICE Threads Information  ******
+  Command Line Threads Count:                      0
+  Available CPU Count:                             4
+  Actual Model Evaluation(Load) Threads Count:     1
+  Actual Solver Threads Count:                     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =       5  # elements   =       5
+  # resistors   =       1  # capacitors =       0  # inductors   =       0
+  # mutual_inds =       0  # vccs       =       0  # vcvs        =       1
+  # cccs        =       0  # ccvs       =       0  # volt_srcs   =       3
+  # curr_srcs   =       0  # diodes     =       0  # bjts        =       0
+  # jfets       =       0  # mosfets    =       0  # U elements  =       0
+  # T elements  =       0  # W elements =       0  # B elements  =       0
+  # S elements  =       0  # P elements =       0  # va device   =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.02           1           8
+  dc sweep           0.03         361        1451
+  transient          0.70       40001      128004       64002 rev=         0
+  readin             0.12
+  errchk             0.02
+  setup              0.05
+  output             0.00
+
+
+           total memory used          692  kbytes
+           total cpu time            0.99 seconds
+           total elapsed time           1 seconds
+           job started at     16:26:08 06/25/2018
+           job ended   at     16:26:09 06/25/2018
+
+
+ Init: hspice initialization file: C:\synopsys\Hspice_B-2008.09\hspice.ini

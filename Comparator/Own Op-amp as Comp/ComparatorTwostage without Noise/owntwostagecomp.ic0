@@ -1,0 +1,35 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "03:50:30 06/26/2018 "
+* "netlist""
+* "runtitle" "*two-stage opamp as comparator"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ c =   1.4053        
++ d = 169.6300m       
++ e =   1.4036        
++ f = 552.5469m       
++ h = 196.2627m       
++ i =   1.4039        
++ l = 198.5783m       
++ m =  21.4630m       
++ n1 =   1.4036        
++ nodeh =   0.            
++ vb1 = 518.0621m       
++ vb2 = 812.3959m       
++ vb3 = 492.8647m       
++ vb4 =   1.0109        
++ vdd =   1.8000        
++ vg1 =   1.7391        
++ vg2 = 552.9698m       
++ vinm =   0.            
++ vinp = 900.0000m       
++ vout =   1.7814        
++ vs1 = 129.1059n       
++ vx = 157.3918n       
+***   END: Saved Operating Point ***                     

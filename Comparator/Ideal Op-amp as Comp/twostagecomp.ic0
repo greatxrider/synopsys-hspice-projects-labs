@@ -1,0 +1,17 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "01:56:21 06/05/2018 "
+* "netlist""
+* "runtitle" "* ideal two-stage opamp as comparator"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ nodeh =   0.            
++ vinm =   0.            
++ vinp = 900.0000m       
++ vout =   1.8000        
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,27 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "04:42:45 06/26/2018 "
+* "netlist""
+* "runtitle" "*hysteresis comparator"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   1.1449        
++ b =   1.7383        
++ c =  29.7760n       
++ d = 789.1236m       
++ in+ =   0.            
++ in- = 900.0000m       
++ nodeh =   0.            
++ out =  92.2686n       
++ out1 =   1.8000        
++ out2 =  13.1590n       
++ vbias =   1.0324        
++ vdd =   1.8000        
++ vinput+ =   0.            
++ vinput- =   0.            
+***   END: Saved Operating Point ***                     
