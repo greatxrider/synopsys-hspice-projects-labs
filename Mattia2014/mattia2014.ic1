@@ -1,0 +1,22 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "04:10:15 01/20/2018 "
+* "netlist" "e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulations\mattia2014\mattia2014.sp "
+* "runtitle" "mattia2014.sp"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ net1 = 499.6228m       
++ net2 = 188.1600m       
++ net3 = 188.1112m       
++ net4 = 185.0378m       
++ net5 = 283.8205m       
++ net6 =   2.3095m       
++ net8 =  22.9124m       
++ vdd = 500.0000m       
++ vref = 303.2695m       
+***   END: Saved Operating Point ***                     

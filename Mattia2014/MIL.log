@@ -1,0 +1,25 @@
+pnlAddPane();
+nil
+1
+designOpen("e:\\jephmari files\\my academic files\\h. 4th year 1st sem\\ece170\\simulations\\mattia2014\\mattia2014.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","v(vref)"), node(D0,"A0","DEG_C"));
+nil
+pnlAddCurve(1, node(D0,"A2","v(vref)"), node(D0,"A2","DEG_C"));
+nil
+pnlAddCurve(1, node(D0,"A4","v(vref)"), node(D0,"A4","DEG_C"));
+nil
+pnlAddCurve(1, node(D0,"A6","v(vref)"), node(D0,"A6","DEG_C"));
+nil
+pnlAddCurve(1, node(D0,"A8","v(vref)"), node(D0,"A8","DEG_C"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

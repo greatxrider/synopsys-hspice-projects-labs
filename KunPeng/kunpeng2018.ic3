@@ -1,0 +1,26 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "00:22:42 01/20/2019 "
+* "netlist" "e:\jephmari files\my academic files\h. 4th year 1st sem\ece170\simulations\kunpeng\kunpeng2018.sp "
+* "runtitle" "*kunpeng2018"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vdd =   1.4000        
++ vref =   1.2713        
++ wire1 =   1.2869        
++ wire10 = 715.9421m       
++ wire11 = 615.2049m       
++ wire2 = 164.3659u       
++ wire3 = 821.6789m       
++ wire4 = 821.4124m       
++ wire5 =   1.3984        
++ wire6 = 724.8613m       
++ wire7 = 234.6893m       
++ wire8 = 852.3628m       
++ wire9 =   1.4000        
+***   END: Saved Operating Point ***                     
