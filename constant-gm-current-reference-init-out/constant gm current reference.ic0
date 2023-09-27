@@ -1,0 +1,26 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "21:43:01 04/20/2018 "
+* "netlist" "c:\users\jeph mari\documents\myacad~1\fbf94~1.3rd\ece132\ece132.1\consta~1\hspice~1\coa6c0~1\consta~1\consta~1.sp "
+* "runtitle" "*constant gm current reference by jeph daligdig"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ c =   1.4960        
++ d =  59.9573m       
++ e =   1.4952        
++ f = 472.1584m       
++ h =  78.7112m       
++ i =   1.4953        
++ l =  75.8856m       
++ m =  43.1702m       
++ vb1 = 447.2036m       
++ vb2 = 568.7466m       
++ vb3 = 863.6936m       
++ vb4 =   1.2609        
++ vdd =   1.8000        
+***   END: Saved Operating Point ***                     
