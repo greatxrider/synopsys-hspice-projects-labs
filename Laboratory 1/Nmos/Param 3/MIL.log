@@ -1,0 +1,18 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\synopsys\\laboratory codes ece130\\nmos\\param 3\\codelab3.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","i1(m1)"), node(D0,"A0","VOLTS"));
+nil
+designOpen("C:\\synopsys\\Laboratory Codes ECE130\\Nmos\\Param 2\\codelab2.sp");
+"D1"
+t
+pnlAddCurve(1, node(D1,"A0","i1(m1)"), node(D1,"A0","VOLTS"));
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

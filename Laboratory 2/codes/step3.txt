@@ -1,0 +1,17 @@
+lab2_Step3.a
+
+m1 vout+ 1 2 0 nch l=0.79u w=0.95u
+
+vgs 1 0 dc 0.78v
+vds vds 0 dc 2v
+rd vds vout+ 10k
+rs 2 0 0.2k
+c1 vout+ 0 10p ic=0
+
+
+.lib 'mm018.l' TT
+.op
+.dc vgs 0v 2v 0.001v
+.probe v(vout+)
+.end
+

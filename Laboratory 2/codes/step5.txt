@@ -1,0 +1,22 @@
+lab2_Step3.b
+
+m1 vout+ 1 2 0 nch l=0.79u w=0.95u
+vgs 1 vin dc 0.78v
+vin vin 0 ac 1v
+vds vds 0 dc 2v
+r1 vds vout+ 10k
+c1 vout+ 0 10p ic=0
+rs 2 0 0.2k
+
+.lib 'mm018.l' TT
+.op
+.dc vgs 0v 2v 0.01v 
+.plot i1(m1)
+
+.alter 
+rs 2 0 1k
+.alter 
+rs 2 0 2k
+.alter 
+rs 2 0 0k
+.end

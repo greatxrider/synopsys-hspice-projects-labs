@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "12:46:02 12/22/2020 "
+* "netlist" "c:\synopsys\laboratory codes ece130\nmos\param 3\codelab3.sp "
+* "runtitle" "ece106 laboratory"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =-500.0000m       
++ 2 =-500.0000m       
++ 3 =   0.            
+***   END: Saved Operating Point ***                     

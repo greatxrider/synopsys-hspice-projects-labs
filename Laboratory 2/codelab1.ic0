@@ -1,0 +1,18 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "13:53:40 01/17/2020 "
+* "netlist" "c:\synopsys\laboratory codes ece130\laboratory 2\codelab1.sp "
+* "runtitle" "lab2_step3.b"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =   1.5300        
++ 2 = 682.2319m       
++ v1 =   0.            
++ vds =   2.0000        
++ vout+ =   1.8992        
+***   END: Saved Operating Point ***                     

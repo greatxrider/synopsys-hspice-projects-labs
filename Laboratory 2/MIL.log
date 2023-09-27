@@ -1,0 +1,17 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\synopsys\\laboratory codes ece130\\laboratory 2\\codelab1.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","v(vout+)"), node(D0,"A0","TIME"));
+nil
+pnlDelCurve(1, node(D0,"A0","v(vout+)"), node(D0,"A0","TIME"));
+nil
+pnlAddCurve(1, node(D0,"A1","vdb(vout+)"), node(D0,"A1","hertz"));
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

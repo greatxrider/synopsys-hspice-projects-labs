@@ -1,0 +1,25 @@
+lab2_Step3.b
+
+m1 vout+ 1 2 0 nch l=0.79u w=0.95u
+vgs 1 vin dc 0.84v
+vin vin 0 ac 1v
+vds vds 0 dc 2v
+r1 vds vout+ 10k
+c1 vout+ 0 10p ic=0
+rs 2 0 0.2k
+
+.lib 'mm018.l' TT
+.op
+.options post probe
+.probe v(vout+)
+.ac dec 100 10 10g
+.plot ac vdb(vout+)
+.meas ac gb when vdb(vout+)=0
+
+.alter 
+vgs 1 vin dc 0.89v
+rs 2 0 1k
+.alter 
+vgs 1 vin dc 0.94v
+rs 2 0 2k
+.end

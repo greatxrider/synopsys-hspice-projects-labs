@@ -1,0 +1,10 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\synopsys\\step3b.sp");
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil
