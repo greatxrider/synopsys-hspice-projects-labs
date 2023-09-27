@@ -1,0 +1,39 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "10:17:25 06/29/2018 "
+* "netlist" "c:\users\jephm\desktop\1.8v conventional\for basic bandgap voltage reference\00001voltage_bandgap_thesis.sp "
+* "runtitle" "voltage_bandgap_thesis.sp"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vdd =   1.8000        
++ ve2 = 642.7611m       
++ vin+ = 696.7326m       
++ vin- = 696.0299m       
++ vout =   1.2536        
++ vref =   1.2327        
++ x =   1.2320        
++ xopamp.c =   1.5017        
++ xopamp.d = 224.9893m       
++ xopamp.e =   1.4988        
++ xopamp.h = 212.8584m       
++ xopamp.i =   1.4999        
++ xopamp.l = 269.2386m       
++ xopamp.m =  27.8758m       
++ xopamp.n =   0.            
++ xopamp.vb1 =   1.1633        
++ xopamp.vb2 = 773.0601m       
++ xopamp.vb3 = 847.1911m       
++ xopamp.vb4 = 486.2771m       
++ xopamp.vdd =   1.8000        
++ xopamp.vg1 =   1.2062        
++ xopamp.vg2 = 537.5074m       
++ xopamp.vs1 = 128.9288m       
++ xopamp.vx =   1.1016        
++ xopamp.x = 527.7364m       
++ xopamp.y =   1.4988        
+***   END: Saved Operating Point ***                     

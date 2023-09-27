@@ -1,0 +1,23 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\users\\jephm\\desktop\\1.8v conventional\\for basic bandgap voltage reference\\00001voltage_bandgap_thesis.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A1","v(vin+,ve2)"), node(D0,"A1","VOLTS"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+pnlAddCurve(1, node(D0,"A0","v(vin+,ve2)"), node(D0,"A0","DEG_C"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

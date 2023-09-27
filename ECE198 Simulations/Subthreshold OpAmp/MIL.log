@@ -1,0 +1,39 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\users\\jephm\\desktop\\subthreshold opamp\\thesameasinthesis.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","vm(two3)","S-1"), node(D0,"A0","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A0","vm(vout)","S-1"), node(D0,"A0","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A1","vm(two3)","S-1"), node(D0,"A1","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A1","vdb(vout)"), node(D0,"A1","HERTZ"));
+nil
+pnlDelCurve(1, node(D0,"A0","vm(two3)","S-1"), node(D0,"A0","HERTZ"));
+nil
+pnlDelCurve(1, node(D0,"A1","vm(two3)","S-1"), node(D0,"A1","HERTZ"));
+nil
+pnlDelCurve(1, node(D0,"A0","vm(vout)","S-1"), node(D0,"A0","HERTZ"));
+nil
+pnlDelCurve(1, node(D0,"A1","vdb(vout)"), node(D0,"A1","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A1","vdb(vout)"), node(D0,"A1","HERTZ"));
+nil
+pnlDelCurve(1, node(D0,"A1","vdb(vout)"), node(D0,"A1","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A1","p(two3)","S-1"), node(D0,"A1","HERTZ"));
+nil
+pnlAddCurve(1, node(D0,"A1","p(vout)","S-1"), node(D0,"A1","HERTZ"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

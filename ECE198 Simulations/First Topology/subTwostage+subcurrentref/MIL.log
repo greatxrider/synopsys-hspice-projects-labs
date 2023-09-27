@@ -1,0 +1,11 @@
+pnlAddPane();
+nil
+1
+designOpen("d:\\non - windows files\\my academic books\\f. 3rd year 2nd sem\\ece198\\hspice simulation\\first topology\\subtwostage+subcurrentref\\twostageultalowpowerwcurref.sp");
+"D0"
+t
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

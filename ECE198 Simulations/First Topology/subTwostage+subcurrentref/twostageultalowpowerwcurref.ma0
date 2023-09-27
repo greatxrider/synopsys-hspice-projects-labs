@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='B-2008.09 32-BIT'
+.TITLE '*twostageultalowpowerwcurref'
+ gb               temper           alter#            
+    failed          25.0000           1.0000         

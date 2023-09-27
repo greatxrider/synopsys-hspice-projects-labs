@@ -1,0 +1,17 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\users\\jeph mari\\documents\\my academic books\\f. 3rd year 2nd sem\\ece198\\hspice simulation\\twostageopamplowpower\\twostageultalowpower.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","vdb(vout)"), node(D0,"A0","HERTZ"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

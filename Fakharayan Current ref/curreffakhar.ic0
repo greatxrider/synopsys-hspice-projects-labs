@@ -1,0 +1,17 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "02:44:29 08/14/2018 "
+* "netlist" "c:\jephmari files\my academic files\g. 3rd year summer term\ece197\simulations\fakharayan current ref\curreffakhar.sp "
+* "runtitle" "*sub1_vnanowattcurreffakhar"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vdd = 900.0000m       
++ wire1 = 451.4137m       
++ wire2 = 341.8460m       
++ wire3 = 171.2191m       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,25 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\users\\jephm\\desktop\\subthreshold conventional\\0.8v\\01voltage_bandgap_subthreshold.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","v(vinn)"), node(D0,"A0","DEG_C"));
+nil
+pnlAddCurve(1, node(D0,"A0","v(vref)"), node(D0,"A0","DEG_C"));
+nil
+pnlAddCurve(1, node(D0,"A1","v(vref)"), node(D0,"A1","VOLTS"));
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+pnlUnselectPane(1, 0);
+nil
+pnlSelectPane(1);
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil

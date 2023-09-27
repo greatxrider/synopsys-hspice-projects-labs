@@ -1,0 +1,30 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "11:47:25 06/29/2018 "
+* "netlist" "c:\users\jephm\desktop\subthreshold conventional\original topology 0.5v\01voltage_bandgap_subthreshold.sp "
+* "runtitle" "voltage_bandgap_thesis_subthreshold.sp"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ net1 = 452.5084m       
++ net3 = 416.2649m       
++ vdd = 500.0000m       
++ vinn = 428.3437m       
++ vinp = 428.3437m       
++ vout = 362.3777m       
++ vref = 440.4225m       
++ xompamp.ibias = 141.4822m       
++ xompamp.net1 = 182.3178m       
++ xompamp.net2 = 146.5294m       
++ xompamp.net3 = 337.2774m       
++ xompamp.two1 = 362.1376m       
++ xompamp.two2 = 289.7331m       
++ xompamp.two3 = 315.4461m       
++ xompamp.two4 = 315.4461m       
++ xompamp.vdd = 500.0000m       
++ xompamp.vr =   0.            
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,26 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "14:22:46 06/28/2018 "
+* "netlist""
+* "runtitle" "*twostageultalowpowerwcurref"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ ibias = 151.2999m       
++ net1 = 244.8865m       
++ net2 = 162.8671m       
++ net3 = 600.0217m       
++ two1 = 656.9959m       
++ two2 = 176.2811m       
++ two3 = 645.3213m       
++ two4 = 645.3213m       
++ vdd = 800.0000m       
++ vinn = 321.0000m       
++ vinp = 321.0000m       
++ vout = 646.2498m       
++ vr =   0.            
+***   END: Saved Operating Point ***                     

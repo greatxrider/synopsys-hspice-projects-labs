@@ -1,0 +1,22 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "19:47:55 06/16/2018 "
+* "netlist""
+* "runtitle" "*twostageop-apsubthresholdhighgain"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ id = 149.4166m       
++ two1 = 357.9822m       
++ two2 =  56.4529m       
++ two3 = 351.6210m       
++ two4 = 351.6210m       
++ vdd = 500.0000m       
++ vinn = 200.0000m       
++ vinp = 200.0000m       
++ vout = 111.3586m       
+***   END: Saved Operating Point ***                     

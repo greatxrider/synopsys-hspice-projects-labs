@@ -1,0 +1,24 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "14:33:35 03/04/2018 "
+* "netlist" "e:\jephmari files\my academic files\i. 4th year 2nd sem\ece171\simulations\fakharayan 2015\sub 1-v nanowatt.sp "
+* "runtitle" "*sub1_vnanowattbvrfarkharayan"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vdd = 900.0000m       
++ vref = 899.6663m       
++ wire1 = 164.1592m       
++ wire2 = 409.5239m       
++ wire3 = 160.8280m       
++ wire4 = 413.0406m       
++ wire5 = 166.6207m       
++ wire6 = 577.1749m       
++ wire7 = 330.9822m       
++ wire8 = 738.8268m       
++ wire9 = 497.7808m       
+***   END: Saved Operating Point ***                     

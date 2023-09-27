@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='B-2008.09 32-BIT'
+.TITLE '*twostageop-apsubthresholdhighgain'
+ gb               temper           alter#            
+  2.522e+05         25.0000           2.0000         

@@ -1,0 +1,26 @@
+* "simulator" "HSPICE" 
+* "version" "B-2008.09 32-BIT"
+* "format" "HSP"
+* "rundate" "18:41:41 06/28/2018 "
+* "netlist" "c:\users\jephm\desktop\subthreshold opamp\thesameasinthesis.sp "
+* "runtitle" "*twostageultalowpowerwcurref"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ ibias = 141.4822m       
++ net1 = 182.3178m       
++ net2 = 146.5294m       
++ net3 = 337.2774m       
++ two1 = 362.1377m       
++ two2 =  61.3895m       
++ two3 = 355.7026m       
++ two4 = 355.7026m       
++ vdd = 500.0000m       
++ vinn = 200.0000m       
++ vinp = 200.0000m       
++ vout = 119.7450m       
++ vr =   0.            
+***   END: Saved Operating Point ***                     
